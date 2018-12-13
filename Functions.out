@@ -26,7 +26,7 @@
 \BOOKMARK [2][-]{subsection.2.3.5}{Exercises}{section.2.3}% 26
 \BOOKMARK [2][-]{subsection.2.3.6}{Answers}{section.2.3}% 27
 \BOOKMARK [0][-]{chapter.3}{Linear Functions}{}% 28
-\BOOKMARK [1][-]{section.3.1}{Lineae Equations}{chapter.3}% 29
+\BOOKMARK [1][-]{section.3.1}{Linear Equations}{chapter.3}% 29
 \BOOKMARK [2][-]{subsection.3.1.1}{Linear Equations}{section.3.1}% 30
 \BOOKMARK [2][-]{subsection.3.1.2}{Graphing Lines}{section.3.1}% 31
 \BOOKMARK [2][-]{subsection.3.1.3}{Exercises}{section.3.1}% 32
@@ -67,65 +67,55 @@
 \BOOKMARK [0][-]{chapter.6}{Polynomial Functions}{}% 67
 \BOOKMARK [1][-]{section.6.1}{Graphs of Polynomial Functions}{chapter.6}% 68
 \BOOKMARK [2][-]{subsection.6.1.1}{Monomial Functions}{section.6.1}% 69
-\BOOKMARK [2][-]{subsection.6.1.2}{Polynomial Functions}{section.6.1}% 70
-\BOOKMARK [2][-]{subsection.6.1.3}{Exercises}{section.6.1}% 71
-\BOOKMARK [2][-]{subsection.6.1.4}{Answers}{section.6.1}% 72
-\BOOKMARK [1][-]{section.6.2}{The Remainder and Factor Theorems}{chapter.6}% 73
-\BOOKMARK [2][-]{subsection.6.2.1}{Exercises}{section.6.2}% 74
-\BOOKMARK [2][-]{subsection.6.2.2}{Answers}{section.6.2}% 75
-\BOOKMARK [1][-]{section.6.3}{Real Zeros of Polynomials}{chapter.6}% 76
-\BOOKMARK [2][-]{subsection.6.3.1}{For Those Wishing to use a Graphing Utility}{section.6.3}% 77
-\BOOKMARK [2][-]{subsection.6.3.2}{For Those Wishing NOT to use a Graphing Calculator}{section.6.3}% 78
-\BOOKMARK [2][-]{subsection.6.3.3}{The Intermediate Value Theorem and Inequalities}{section.6.3}% 79
-\BOOKMARK [2][-]{subsection.6.3.4}{Exercises}{section.6.3}% 80
-\BOOKMARK [2][-]{subsection.6.3.5}{Answers}{section.6.3}% 81
-\BOOKMARK [0][-]{chapter.7}{Rational Functions}{}% 82
-\BOOKMARK [1][-]{section.7.1}{Rational Expressions and Equations}{chapter.7}% 83
-\BOOKMARK [2][-]{subsection.7.1.1}{Exercises}{section.7.1}% 84
-\BOOKMARK [2][-]{subsection.7.1.2}{Answers}{section.7.1}% 85
-\BOOKMARK [1][-]{section.7.2}{Introduction to Rational Functions}{chapter.7}% 86
-\BOOKMARK [2][-]{subsection.7.2.1}{Laurent Monomial Functions}{section.7.2}% 87
-\BOOKMARK [2][-]{subsection.7.2.2}{Local Behavior near Excluded Values}{section.7.2}% 88
-\BOOKMARK [2][-]{subsection.7.2.3}{End Behavior}{section.7.2}% 89
-\BOOKMARK [2][-]{subsection.7.2.4}{Exercises}{section.7.2}% 90
-\BOOKMARK [2][-]{subsection.7.2.5}{Answers}{section.7.2}% 91
-\BOOKMARK [0][-]{chapter.8}{Root, Radical and Power Functions}{}% 92
-\BOOKMARK [1][-]{section.8.1}{Radical Equations}{chapter.8}% 93
-\BOOKMARK [2][-]{subsection.8.1.1}{Rationalizing Denominators and Numerators}{section.8.1}% 94
-\BOOKMARK [2][-]{subsection.8.1.2}{Exercises}{section.8.1}% 95
-\BOOKMARK [2][-]{subsection.8.1.3}{Answers}{section.8.1}% 96
-\BOOKMARK [1][-]{section.8.2}{Root and Radical Functions}{chapter.8}% 97
-\BOOKMARK [2][-]{subsection.8.2.1}{Root Functions}{section.8.2}% 98
-\BOOKMARK [2][-]{subsection.8.2.2}{Other Functions involving Radicals}{section.8.2}% 99
-\BOOKMARK [2][-]{subsection.8.2.3}{Exercises}{section.8.2}% 100
-\BOOKMARK [2][-]{subsection.8.2.4}{Answers}{section.8.2}% 101
-\BOOKMARK [0][-]{chapter.9}{Further Topics on Functions}{}% 102
-\BOOKMARK [1][-]{section.9.1}{Function Arithmetic}{chapter.9}% 103
-\BOOKMARK [2][-]{subsection.9.1.1}{Difference Quotients}{section.9.1}% 104
-\BOOKMARK [2][-]{subsection.9.1.2}{Exercises}{section.9.1}% 105
-\BOOKMARK [2][-]{subsection.9.1.3}{Answers}{section.9.1}% 106
-\BOOKMARK [1][-]{section.9.2}{Function Composition}{chapter.9}% 107
-\BOOKMARK [2][-]{subsection.9.2.1}{Exercises}{section.9.2}% 108
-\BOOKMARK [2][-]{subsection.9.2.2}{Answers}{section.9.2}% 109
-\BOOKMARK [1][-]{section.9.3}{Relations and Implicit Functions}{chapter.9}% 110
-\BOOKMARK [2][-]{subsection.9.3.1}{Exercises}{section.9.3}% 111
-\BOOKMARK [2][-]{subsection.9.3.2}{Answers}{section.9.3}% 112
-\BOOKMARK [1][-]{section.9.4}{Inverse Functions}{chapter.9}% 113
-\BOOKMARK [2][-]{subsection.9.4.1}{Exercises}{section.9.4}% 114
-\BOOKMARK [2][-]{subsection.9.4.2}{Answers}{section.9.4}% 115
-\BOOKMARK [0][-]{chapter.10}{Exponential and Logarithmic Functions}{}% 116
-\BOOKMARK [1][-]{section.10.1}{Exponential Functions}{chapter.10}% 117
-\BOOKMARK [2][-]{subsection.10.1.1}{Exercises}{section.10.1}% 118
-\BOOKMARK [2][-]{subsection.10.1.2}{Answers}{section.10.1}% 119
-\BOOKMARK [1][-]{section.10.2}{Logarithmic Functions}{chapter.10}% 120
-\BOOKMARK [2][-]{subsection.10.2.1}{Exercises}{section.10.2}% 121
-\BOOKMARK [2][-]{subsection.10.2.2}{Answers}{section.10.2}% 122
-\BOOKMARK [1][-]{section.10.3}{Properties of Logarithms}{chapter.10}% 123
-\BOOKMARK [2][-]{subsection.10.3.1}{Exercises}{section.10.3}% 124
-\BOOKMARK [2][-]{subsection.10.3.2}{Answers}{section.10.3}% 125
-\BOOKMARK [1][-]{section.10.4}{Equations and Inequalities involving Exponential Functions}{chapter.10}% 126
-\BOOKMARK [2][-]{subsection.10.4.1}{Exercises}{section.10.4}% 127
-\BOOKMARK [2][-]{subsection.10.4.2}{Answers}{section.10.4}% 128
-\BOOKMARK [1][-]{section.10.5}{Equations and Inequalities involving Logarithmic Functions}{chapter.10}% 129
-\BOOKMARK [2][-]{subsection.10.5.1}{Exercises}{section.10.5}% 130
-\BOOKMARK [2][-]{subsection.10.5.2}{Answers}{section.10.5}% 131
+\BOOKMARK [2][-]{subsection.6.1.2}{Exercises}{section.6.1}% 70
+\BOOKMARK [2][-]{subsection.6.1.3}{Answers}{section.6.1}% 71
+\BOOKMARK [0][-]{chapter.7}{Rational Functions}{}% 72
+\BOOKMARK [1][-]{section.7.1}{Rational Expressions and Equations}{chapter.7}% 73
+\BOOKMARK [2][-]{subsection.7.1.1}{Exercises}{section.7.1}% 74
+\BOOKMARK [2][-]{subsection.7.1.2}{Answers}{section.7.1}% 75
+\BOOKMARK [1][-]{section.7.2}{Introduction to Rational Functions}{chapter.7}% 76
+\BOOKMARK [2][-]{subsection.7.2.1}{Laurent Monomial Functions}{section.7.2}% 77
+\BOOKMARK [2][-]{subsection.7.2.2}{Local Behavior near Excluded Values}{section.7.2}% 78
+\BOOKMARK [2][-]{subsection.7.2.3}{End Behavior}{section.7.2}% 79
+\BOOKMARK [2][-]{subsection.7.2.4}{Exercises}{section.7.2}% 80
+\BOOKMARK [2][-]{subsection.7.2.5}{Answers}{section.7.2}% 81
+\BOOKMARK [0][-]{chapter.8}{Root, Radical and Power Functions}{}% 82
+\BOOKMARK [1][-]{section.8.1}{Radical Equations}{chapter.8}% 83
+\BOOKMARK [2][-]{subsection.8.1.1}{Rationalizing Denominators and Numerators}{section.8.1}% 84
+\BOOKMARK [2][-]{subsection.8.1.2}{Exercises}{section.8.1}% 85
+\BOOKMARK [2][-]{subsection.8.1.3}{Answers}{section.8.1}% 86
+\BOOKMARK [1][-]{section.8.2}{Root and Radical Functions}{chapter.8}% 87
+\BOOKMARK [2][-]{subsection.8.2.1}{Root Functions}{section.8.2}% 88
+\BOOKMARK [2][-]{subsection.8.2.2}{Other Functions involving Radicals}{section.8.2}% 89
+\BOOKMARK [2][-]{subsection.8.2.3}{Exercises}{section.8.2}% 90
+\BOOKMARK [2][-]{subsection.8.2.4}{Answers}{section.8.2}% 91
+\BOOKMARK [0][-]{chapter.9}{Further Topics on Functions}{}% 92
+\BOOKMARK [1][-]{section.9.1}{Function Arithmetic}{chapter.9}% 93
+\BOOKMARK [2][-]{subsection.9.1.1}{Difference Quotients}{section.9.1}% 94
+\BOOKMARK [2][-]{subsection.9.1.2}{Exercises}{section.9.1}% 95
+\BOOKMARK [2][-]{subsection.9.1.3}{Answers}{section.9.1}% 96
+\BOOKMARK [1][-]{section.9.2}{Function Composition}{chapter.9}% 97
+\BOOKMARK [2][-]{subsection.9.2.1}{Exercises}{section.9.2}% 98
+\BOOKMARK [2][-]{subsection.9.2.2}{Answers}{section.9.2}% 99
+\BOOKMARK [1][-]{section.9.3}{Relations and Implicit Functions}{chapter.9}% 100
+\BOOKMARK [2][-]{subsection.9.3.1}{Exercises}{section.9.3}% 101
+\BOOKMARK [2][-]{subsection.9.3.2}{Answers}{section.9.3}% 102
+\BOOKMARK [1][-]{section.9.4}{Inverse Functions}{chapter.9}% 103
+\BOOKMARK [2][-]{subsection.9.4.1}{Exercises}{section.9.4}% 104
+\BOOKMARK [2][-]{subsection.9.4.2}{Answers}{section.9.4}% 105
+\BOOKMARK [0][-]{chapter.10}{Exponential and Logarithmic Functions}{}% 106
+\BOOKMARK [1][-]{section.10.1}{Exponential Functions}{chapter.10}% 107
+\BOOKMARK [2][-]{subsection.10.1.1}{Exercises}{section.10.1}% 108
+\BOOKMARK [2][-]{subsection.10.1.2}{Answers}{section.10.1}% 109
+\BOOKMARK [1][-]{section.10.2}{Logarithmic Functions}{chapter.10}% 110
+\BOOKMARK [2][-]{subsection.10.2.1}{Exercises}{section.10.2}% 111
+\BOOKMARK [2][-]{subsection.10.2.2}{Answers}{section.10.2}% 112
+\BOOKMARK [1][-]{section.10.3}{Properties of Logarithms}{chapter.10}% 113
+\BOOKMARK [2][-]{subsection.10.3.1}{Exercises}{section.10.3}% 114
+\BOOKMARK [2][-]{subsection.10.3.2}{Answers}{section.10.3}% 115
+\BOOKMARK [1][-]{section.10.4}{Equations and Inequalities involving Exponential Functions}{chapter.10}% 116
+\BOOKMARK [2][-]{subsection.10.4.1}{Exercises}{section.10.4}% 117
+\BOOKMARK [2][-]{subsection.10.4.2}{Answers}{section.10.4}% 118
+\BOOKMARK [1][-]{section.10.5}{Equations and Inequalities involving Logarithmic Functions}{chapter.10}% 119
+\BOOKMARK [2][-]{subsection.10.5.1}{Exercises}{section.10.5}% 120
+\BOOKMARK [2][-]{subsection.10.5.2}{Answers}{section.10.5}% 121

@@ -26,7 +26,7 @@
 \contentsline {subsection}{\numberline {2.3.5}Exercises}{116}{subsection.2.3.5}
 \contentsline {subsection}{\numberline {2.3.6}Answers}{122}{subsection.2.3.6}
 \contentsline {chapter}{\numberline {3}Linear Functions}{129}{chapter.3}
-\contentsline {section}{\numberline {3.1}Lineae Equations}{129}{section.3.1}
+\contentsline {section}{\numberline {3.1}Linear Equations}{129}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Linear Equations}{129}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}Graphing Lines}{134}{subsection.3.1.2}
 \contentsline {subsection}{\numberline {3.1.3}Exercises}{145}{subsection.3.1.3}
@@ -67,65 +67,55 @@
 \contentsline {chapter}{\numberline {6}Polynomial Functions}{263}{chapter.6}
 \contentsline {section}{\numberline {6.1}Graphs of Polynomial Functions}{263}{section.6.1}
 \contentsline {subsection}{\numberline {6.1.1}Monomial Functions}{263}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Polynomial Functions}{269}{subsection.6.1.2}
-\contentsline {subsection}{\numberline {6.1.3}Exercises}{279}{subsection.6.1.3}
-\contentsline {subsection}{\numberline {6.1.4}Answers}{286}{subsection.6.1.4}
-\contentsline {section}{\numberline {6.2}The Remainder and Factor Theorems}{293}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Exercises}{301}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Answers}{303}{subsection.6.2.2}
-\contentsline {section}{\numberline {6.3}Real Zeros of Polynomials}{305}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}For Those Wishing to use a Graphing Utility}{306}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}For Those Wishing NOT to use a Graphing Calculator}{308}{subsection.6.3.2}
-\contentsline {subsection}{\numberline {6.3.3}The Intermediate Value Theorem and Inequalities}{311}{subsection.6.3.3}
-\contentsline {subsection}{\numberline {6.3.4}Exercises}{316}{subsection.6.3.4}
-\contentsline {subsection}{\numberline {6.3.5}Answers}{320}{subsection.6.3.5}
-\contentsline {chapter}{\numberline {7}Rational Functions}{325}{chapter.7}
-\contentsline {section}{\numberline {7.1}Rational Expressions and Equations}{325}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}Exercises}{336}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}Answers}{338}{subsection.7.1.2}
-\contentsline {section}{\numberline {7.2}Introduction to Rational Functions}{338}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Laurent Monomial Functions}{339}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}Local Behavior near Excluded Values}{344}{subsection.7.2.2}
-\contentsline {subsection}{\numberline {7.2.3}End Behavior}{349}{subsection.7.2.3}
-\contentsline {subsection}{\numberline {7.2.4}Exercises}{357}{subsection.7.2.4}
-\contentsline {subsection}{\numberline {7.2.5}Answers}{361}{subsection.7.2.5}
-\contentsline {chapter}{\numberline {8}Root, Radical and Power Functions}{367}{chapter.8}
-\contentsline {section}{\numberline {8.1}Radical Equations}{367}{section.8.1}
-\contentsline {subsection}{\numberline {8.1.1}Rationalizing Denominators and Numerators}{375}{subsection.8.1.1}
-\contentsline {subsection}{\numberline {8.1.2}Exercises}{379}{subsection.8.1.2}
-\contentsline {subsection}{\numberline {8.1.3}Answers}{380}{subsection.8.1.3}
-\contentsline {section}{\numberline {8.2}Root and Radical Functions}{380}{section.8.2}
-\contentsline {subsection}{\numberline {8.2.1}Root Functions}{381}{subsection.8.2.1}
-\contentsline {subsection}{\numberline {8.2.2}Other Functions involving Radicals}{384}{subsection.8.2.2}
-\contentsline {subsection}{\numberline {8.2.3}Exercises}{391}{subsection.8.2.3}
-\contentsline {subsection}{\numberline {8.2.4}Answers}{394}{subsection.8.2.4}
-\contentsline {chapter}{\numberline {9}Further Topics on Functions}{399}{chapter.9}
-\contentsline {section}{\numberline {9.1}Function Arithmetic}{399}{section.9.1}
-\contentsline {subsection}{\numberline {9.1.1}Difference Quotients}{405}{subsection.9.1.1}
-\contentsline {subsection}{\numberline {9.1.2}Exercises}{412}{subsection.9.1.2}
-\contentsline {subsection}{\numberline {9.1.3}Answers}{415}{subsection.9.1.3}
-\contentsline {section}{\numberline {9.2}Function Composition}{420}{section.9.2}
-\contentsline {subsection}{\numberline {9.2.1}Exercises}{430}{subsection.9.2.1}
-\contentsline {subsection}{\numberline {9.2.2}Answers}{433}{subsection.9.2.2}
-\contentsline {section}{\numberline {9.3}Relations and Implicit Functions}{438}{section.9.3}
-\contentsline {subsection}{\numberline {9.3.1}Exercises}{447}{subsection.9.3.1}
-\contentsline {subsection}{\numberline {9.3.2}Answers}{451}{subsection.9.3.2}
-\contentsline {section}{\numberline {9.4}Inverse Functions}{458}{section.9.4}
-\contentsline {subsection}{\numberline {9.4.1}Exercises}{473}{subsection.9.4.1}
-\contentsline {subsection}{\numberline {9.4.2}Answers}{476}{subsection.9.4.2}
-\contentsline {chapter}{\numberline {10}Exponential and Logarithmic Functions}{479}{chapter.10}
-\contentsline {section}{\numberline {10.1}Exponential Functions}{479}{section.10.1}
-\contentsline {subsection}{\numberline {10.1.1}Exercises}{491}{subsection.10.1.1}
-\contentsline {subsection}{\numberline {10.1.2}Answers}{494}{subsection.10.1.2}
-\contentsline {section}{\numberline {10.2}Logarithmic Functions}{497}{section.10.2}
-\contentsline {subsection}{\numberline {10.2.1}Exercises}{507}{subsection.10.2.1}
-\contentsline {subsection}{\numberline {10.2.2}Answers}{511}{subsection.10.2.2}
-\contentsline {section}{\numberline {10.3}Properties of Logarithms}{516}{section.10.3}
-\contentsline {subsection}{\numberline {10.3.1}Exercises}{523}{subsection.10.3.1}
-\contentsline {subsection}{\numberline {10.3.2}Answers}{526}{subsection.10.3.2}
-\contentsline {section}{\numberline {10.4}Equations and Inequalities involving Exponential Functions}{527}{section.10.4}
-\contentsline {subsection}{\numberline {10.4.1}Exercises}{536}{subsection.10.4.1}
-\contentsline {subsection}{\numberline {10.4.2}Answers}{538}{subsection.10.4.2}
-\contentsline {section}{\numberline {10.5}Equations and Inequalities involving Logarithmic Functions}{540}{section.10.5}
-\contentsline {subsection}{\numberline {10.5.1}Exercises}{547}{subsection.10.5.1}
-\contentsline {subsection}{\numberline {10.5.2}Answers}{549}{subsection.10.5.2}
+\contentsline {subsection}{\numberline {6.1.2}Exercises}{269}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Answers}{277}{subsection.6.1.3}
+\contentsline {chapter}{\numberline {7}Rational Functions}{285}{chapter.7}
+\contentsline {section}{\numberline {7.1}Rational Expressions and Equations}{285}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Exercises}{296}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Answers}{298}{subsection.7.1.2}
+\contentsline {section}{\numberline {7.2}Introduction to Rational Functions}{298}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Laurent Monomial Functions}{299}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Local Behavior near Excluded Values}{304}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.3}End Behavior}{309}{subsection.7.2.3}
+\contentsline {subsection}{\numberline {7.2.4}Exercises}{317}{subsection.7.2.4}
+\contentsline {subsection}{\numberline {7.2.5}Answers}{321}{subsection.7.2.5}
+\contentsline {chapter}{\numberline {8}Root, Radical and Power Functions}{327}{chapter.8}
+\contentsline {section}{\numberline {8.1}Radical Equations}{327}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}Rationalizing Denominators and Numerators}{335}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}Exercises}{339}{subsection.8.1.2}
+\contentsline {subsection}{\numberline {8.1.3}Answers}{340}{subsection.8.1.3}
+\contentsline {section}{\numberline {8.2}Root and Radical Functions}{340}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Root Functions}{341}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}Other Functions involving Radicals}{344}{subsection.8.2.2}
+\contentsline {subsection}{\numberline {8.2.3}Exercises}{351}{subsection.8.2.3}
+\contentsline {subsection}{\numberline {8.2.4}Answers}{354}{subsection.8.2.4}
+\contentsline {chapter}{\numberline {9}Further Topics on Functions}{359}{chapter.9}
+\contentsline {section}{\numberline {9.1}Function Arithmetic}{359}{section.9.1}
+\contentsline {subsection}{\numberline {9.1.1}Difference Quotients}{365}{subsection.9.1.1}
+\contentsline {subsection}{\numberline {9.1.2}Exercises}{372}{subsection.9.1.2}
+\contentsline {subsection}{\numberline {9.1.3}Answers}{375}{subsection.9.1.3}
+\contentsline {section}{\numberline {9.2}Function Composition}{380}{section.9.2}
+\contentsline {subsection}{\numberline {9.2.1}Exercises}{390}{subsection.9.2.1}
+\contentsline {subsection}{\numberline {9.2.2}Answers}{393}{subsection.9.2.2}
+\contentsline {section}{\numberline {9.3}Relations and Implicit Functions}{398}{section.9.3}
+\contentsline {subsection}{\numberline {9.3.1}Exercises}{407}{subsection.9.3.1}
+\contentsline {subsection}{\numberline {9.3.2}Answers}{411}{subsection.9.3.2}
+\contentsline {section}{\numberline {9.4}Inverse Functions}{418}{section.9.4}
+\contentsline {subsection}{\numberline {9.4.1}Exercises}{433}{subsection.9.4.1}
+\contentsline {subsection}{\numberline {9.4.2}Answers}{436}{subsection.9.4.2}
+\contentsline {chapter}{\numberline {10}Exponential and Logarithmic Functions}{439}{chapter.10}
+\contentsline {section}{\numberline {10.1}Exponential Functions}{439}{section.10.1}
+\contentsline {subsection}{\numberline {10.1.1}Exercises}{451}{subsection.10.1.1}
+\contentsline {subsection}{\numberline {10.1.2}Answers}{454}{subsection.10.1.2}
+\contentsline {section}{\numberline {10.2}Logarithmic Functions}{457}{section.10.2}
+\contentsline {subsection}{\numberline {10.2.1}Exercises}{467}{subsection.10.2.1}
+\contentsline {subsection}{\numberline {10.2.2}Answers}{471}{subsection.10.2.2}
+\contentsline {section}{\numberline {10.3}Properties of Logarithms}{476}{section.10.3}
+\contentsline {subsection}{\numberline {10.3.1}Exercises}{483}{subsection.10.3.1}
+\contentsline {subsection}{\numberline {10.3.2}Answers}{486}{subsection.10.3.2}
+\contentsline {section}{\numberline {10.4}Equations and Inequalities involving Exponential Functions}{487}{section.10.4}
+\contentsline {subsection}{\numberline {10.4.1}Exercises}{496}{subsection.10.4.1}
+\contentsline {subsection}{\numberline {10.4.2}Answers}{498}{subsection.10.4.2}
+\contentsline {section}{\numberline {10.5}Equations and Inequalities involving Logarithmic Functions}{500}{section.10.5}
+\contentsline {subsection}{\numberline {10.5.1}Exercises}{507}{subsection.10.5.1}
+\contentsline {subsection}{\numberline {10.5.2}Answers}{509}{subsection.10.5.2}
