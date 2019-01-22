@@ -5,7 +5,7 @@
 \setcounter{footnote}{0}
 
 \label{Transformations}
-
+\co{
 Theorems \ref{linearabsvaluegraphs}, \ref{standardformgraph}, \ref{linearmononialgraphs},  \ref{linearlaurentlgraphs}, \ref{linearrootgraphs} and \ref{linearrationalpowergraphs} all describe ways in which the graph of a function can changed, or `transformed' to obtain the graph of a related function. The results and  proofs  of each of these theorems are virtually identical, and with the language of function composition, we can see better why.  
 
 \smallskip
@@ -17,7 +17,7 @@ Consider, for instance, Theorem \ref{linearrationalpowergraphs}, in which we des
 In this section, our goal is to generalize the aforementioned theorems to the graphs of \textit{all} functions.  Along the way, you'll see some very familiar arguments, but, additionally, we hope this section affords the reader an opportunity to not only see \textit{how} these transformations work they way they do, but \textit{why}.
 
 \smallskip
-
+}
 Our motivational example for the results in this section is the graph of $y = f(x)$ below.  While we could formulate an expression for $f(x)$ as a piecewise-defined function consisting of linear and constant parts, we wish to focus more on the geometry here.  That being said, we do record some of the function values - the `key points' if you will - to track through each transformation.
 
 
@@ -704,7 +704,7 @@ We can check our answer by working through both transformations, in sequence, as
  
 \subsection{Reflections about the Coordinate Axes}
 
-We now turn our attention to reflections. We know from Section \ref{AppCartesianPlane} that to reflect a point $(x,y)$ across the $x$-axis, we replace $y$ with $-y$.  If $(x,y)$ is on the graph of $f$, then $y=f(x)$, so replacing $y$ with $-y$ is the same as replacing $f(x)$ with $-f(x)$.  Hence, the graph of $y=-f(x)$ is the graph of $f$ reflected across the $x$-axis.  Similarly, the graph of $y=f(-x)$ is the graph of $y = f(x)$ reflected across the $y$-axis.\footnote{The expressions $-f(x)$ and $f(-x)$ should look familiar - they are the quantities we used in Section \ref{GraphsofPolynomials} to determine if a function was even, odd or neither.  We explore impact of symmetry on reflections in Exercise \ref{SymmetryandReflectionsExercise}.}   
+We now turn our attention to reflections. \co{We know from Section \ref{AppCartesianPlane} that} To reflect a point $(x,y)$ across the $x$-axis, we replace $y$ with $-y$.  If $(x,y)$ is on the graph of $f$, then $y=f(x)$, so replacing $y$ with $-y$ is the same as replacing $f(x)$ with $-f(x)$.  Hence, the graph of $y=-f(x)$ is the graph of $f$ reflected across the $x$-axis.  Similarly, the graph of $y=f(-x)$ is the graph of $y = f(x)$ reflected across the $y$-axis.\footnote{The expressions $-f(x)$ and $f(-x)$ should look familiar - they are the quantities we used in Section \ref{GraphsofPolynomials} to determine if a function was even, odd or neither.  We explore impact of symmetry on reflections in Exercise \ref{SymmetryandReflectionsExercise}.}   
 
 \smallskip
 
@@ -2640,12 +2640,12 @@ Since to get from the graph of $f$ to the graph of $g$, we: first, shifted left 
 \label{TransformationsinSequence}
 
 
-Now that we have studied  three basic classes of transformations:  shifts, reflections, and scalings, we present a result below which provides one algorithm to follow to transform the graph of $y=f(x)$ into the graph of $y=af(bx-h)+k$ without the need of using Theorems \ref{vshifts}, \ref{hshifts}, \ref{reflections}, \ref{vscalings} and \ref{hscalings} individually.  
+Now that we have studied  three basic classes of transformations:  shifts, reflections, and scalings, we present a result below which provides one algorithm to follow to transform the graph of $y=f(x)$ into the graph of $y=af(bx-h)+k$. \co{without the need of using Theorems \ref{vshifts}, \ref{hshifts}, \ref{reflections}, \ref{vscalings} and \ref{hscalings} individually.  
 
 \smallskip
 
 Theorem \ref{transformationsthm} is the ultimate generalization of Theorems \ref{linearabsvaluegraphs}, \ref{standardformgraph}, \ref{linearmononialgraphs},  \ref{linearlaurentlgraphs}, \ref{linearrootgraphs} and \ref{linearrationalpowergraphs}.  We note the underlying assumption here is that regardless of the order or number of shifts, reflections and scalings applied to the graph of a function $f$, we can always represent the final result in the form $g(x) = a f(bx-h)+k$.   Since each of these transformations can ultimately be traced back to composing $f$ with linear functions,\footnote{See the remarks at the beginning of the section.} this fact is verified by showing compositions of linear functions results in a linear function.\footnote{See Exercise \ref{CompLinearisLinearExercise}.}
-
+}
 \smallskip
 
 \colorbox{ResultColor}{\bbm
@@ -2950,7 +2950,7 @@ One way is to compare the graphs of $f$ and $g$ and work backwards.  A more meth
 
 Hence $g(x) =  -f(-2x-1)+1$.  Note we can show $f$ is even,\footnote{Recall this means $f(-x) = f(x)$.} so $f(-2x-1) = f(-(2x+1)) = f(2x+1)$ and obtain $g(x) = -f(2x+1)+1$.  
 
-
+\co{
 At the beginning of this section, we discussed how all of the transformations we'd be discussing are the result of composing given functions with linear functions.  Not all transformations, not even all rigid transformations,\footnote{See Section \ref{PolarGraphs}.} fall into these categories.  
 
 \smallskip
@@ -3006,7 +3006,7 @@ For example, consider the graphs of $y=f(x)$ and $y=g(x)$ below.
 \end{mfpic}
 
 \end{array}\]
-
+}
 
 
 

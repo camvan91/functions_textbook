@@ -122,7 +122,7 @@ The way we describe what is happening graphically is to say the line $x = 0$ is 
 
 \medskip
 
-Note that in Definition \ref{ha}, we write $f(x) \rightarrow c$ (not $f(x) \rightarrow c^{+}$ or $f(x) \rightarrow c^{-}$) because we are unconcerned from which direction the values $f(x)$ approach the value $c$, just as long as they do so.  As we shall see, the graphs of rational functions may, in fact, \textit{cross} their horizontal asymptotes.  If this happens, however,  it does so only a \textit{finite} number of times (at least in this chapter), and so for each choice of $x \rightarrow -\infty$ and $x \rightarrow \infty$, $f(x)$ will approach $c$ from either below (in the case $f(x) \rightarrow c^{-}$) or above (in the case $f(x) \rightarrow c^{+}$.)  We leave $f(x) \rightarrow c$ generic in our definition, however, to allow this concept to apply to less tame specimens in the Precalculus zoo, one that cross horizontal asymptotes an infinite number of times.\footnote{See Exercise \ref{exploregraphslast} in Section \ref{GraphsofSineandCosine}.}
+Note that in Definition \ref{ha}, we write $f(x) \rightarrow c$ (not $f(x) \rightarrow c^{+}$ or $f(x) \rightarrow c^{-}$) because we are unconcerned from which direction the values $f(x)$ approach the value $c$, just as long as they do so.  As we shall see, the graphs of rational functions may, in fact, \textit{cross} their horizontal asymptotes.  If this happens, however,  it does so only a \textit{finite} number of times (at least in this chapter), and so for each choice of $x \rightarrow -\infty$ and $x \rightarrow \infty$, $f(x)$ will approach $c$ from either below (in the case $f(x) \rightarrow c^{-}$) or above (in the case $f(x) \rightarrow c^{+}$.)  We leave $f(x) \rightarrow c$ generic in our definition, however, to allow this concept to apply to less tame specimens in the Precalculus zoo, one that cross horizontal asymptotes an infinite number of times.\co{\footnote{See Exercise \ref{exploregraphslast} in Section \ref{GraphsofSineandCosine}.}}
 
 
 The behaviors illustrated in the graph $r(x) = \frac{1}{x}$ are typical of functions of the form $f(x) = \frac{1}{x^n} = x^{-n}$ for natural numbers, $n$.  As with the monomial functions discussed in Section \ref{GraphsofPolynomials}, the patterns that develop primarily depend on whether $n$ is odd or even.  Having thoroughly discussed the graph of $y = \frac{1}{x} = x^{-1}$, we graph it along with $y = \frac{1}{x^3} = x^{-3}$ and $y = \frac{1}{x^5} = x^{-5}$ below.  Note the points $(-1,-1)$ and $(1,1)$ are common to all three graphs as are the asymptotes $x = 0$ and $y = 0$.  As the $n$ increases, the graphs become steeper for $|x| < 1$  and flatten out more quickly for $|x|>1$.  Both the domain and range in each case appears to be $(-\infty, 0) \cup (0, \infty)$.  Indeed, owing to the $x$ in the denominator of $f(x) = \frac{1}{x^n}$, $f(0)$, and only $f(0)$,  is undefined. Hence the domain is $(-\infty, 0) \cup (0, \infty)$.  When thinking about the range, note the equation  $f(x)= \frac{1}{x^n}  = c$ has the solution $x = \sqrt[n]{\frac{1}{c}}$ as long as $c \neq 0$.  Thus means $f\left( \sqrt[n]{\frac{1}{c}} \right) = c$ for every nonzero real number $c$.  If $c = 0$, we are in the same situation as before:  $\frac{1}{x^n} = 0$ has no real solution.  This establishes the range is $(-\infty, 0) \cup (0, \infty)$.  Finally, each of the graphs appear to be symmetric about the origin.  Indeed, since $n$ is odd, $f(-x) = (-x)^{-n} = (-1)^{-n} x^{-n} = -x^{-n} = -f(x)$, proving every member of this function family is odd.  
@@ -564,8 +564,9 @@ As above, we determine the domain and range of $g$ by tracking the changes in th
 
 \end{ex}
 
-In Example \ref{linearlaurentex}, we once again see the benefit of changing the form of a function to make use of an important result.  A natural question to ask is to what extent general rational functions can be rewritten to use Theorem \ref{linearlaurentlgraphs}.  In the same way polynomial functions are sums of monomial functions, it turns out, allowing for non-real number coefficients,  that every rational function can be written as a sum of (possibly shifted) Laurent monomial functions.\footnote{i.e.,  Laurent `Polynomials.'  This result is a combination of Theorems \ref{complexfactorization} in  Section \ref{ComplexZeros} and Theorem \ref{pfdecomp} in Section \ref{ParFrac}.}
+In Example \ref{linearlaurentex}, we once again see the benefit of changing the form of a function to make use of an important result.  A natural question to ask is to what extent general rational functions can be rewritten to use Theorem \ref{linearlaurentlgraphs}.  In the same way polynomial functions are sums of monomial functions, it turns out, allowing for non-real number coefficients,  that every rational function can be written as a sum of (possibly shifted) Laurent monomial functions.\co{\footnote{i.e.,  Laurent `Polynomials.'  This result is a combination of Theorems \ref{complexfactorization} in  Section \ref{ComplexZeros} and Theorem \ref{pfdecomp} in Section \ref{ParFrac}.}}
 
+\co{
 \subsection{Local Behavior near Excluded Values}
 \label{vaorholesection}
 
@@ -1267,6 +1268,7 @@ You'll explore average cost (and its relation to variable cost) in Exercise \ref
 
 
 \end{ex}
+}
 
 \newpage
 

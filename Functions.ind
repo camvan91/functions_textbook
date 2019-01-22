@@ -1,0 +1,426 @@
+\begin{theindex}
+
+  \item $\in $, \hyperpage{1}
+  \item $\notin  $, \hyperpage{1}
+  \item $\text  {n}^{\text  {th}}$ root 
+    \subitem  principal, \hyperpage{28}
+  \item $n$th root function, \hyperpage{320}
+  \item $x$-intercept, \hyperpage{138}
+  \item $y$-intercept, \hyperpage{138}
+
+  \indexspace
+
+  \item absolute value, \hyperpage{169}
+  \item absolute value 
+    \subitem  definition of, \hyperpage{175}
+    \subitem  properties of, \hyperpage{170}
+  \item acidity of a solution 
+    \subitem  pH, \hyperpage{450}
+  \item alkalinity of a solution 
+    \subitem  pH, \hyperpage{450}
+  \item argument 
+    \subitem  of a logarithm, \hyperpage{441}
+  \item associative property 
+    \subitem  for function composition, \hyperpage{365}
+  \item asymptote 
+    \subitem  horizontal 
+      \subsubitem  formal definition of, \hyperpage{292}
+      \subsubitem  intuitive definition of, \hyperpage{292}
+    \subitem  vertical 
+      \subsubitem  formal definition of, \hyperpage{292}
+      \subsubitem  intuitive definition of, \hyperpage{292}
+  \item axis of symmetry 
+    \subitem  of an absolute value function, \hyperpage{179}
+    \subitem  quadratic function, \hyperpage{231}
+
+  \indexspace
+
+  \item base, \hyperpage{23}
+  \item binomial, \hyperpage{199}
+
+  \indexspace
+
+  \item change of base formulas, \hyperpage{461}
+  \item closed interval, \hyperpage{7}
+  \item codomain 
+    \subitem  definition, \hyperpage{37}
+  \item common base, \hyperpage{421}
+  \item common logarithm, \hyperpage{437}
+  \item Completing the Square, \hyperpage{221}
+  \item completing the square, \hyperpage{234}
+  \item composite function 
+    \subitem  definition of, \hyperpage{360}
+    \subitem  properties of, \hyperpage{365}
+  \item conjugate, \hyperpage{315}
+  \item constant function 
+    \subitem  as a horizontal line, \hyperpage{145}
+  \item constraint, \hyperpage{241}
+  \item continuous, \hyperpage{45}
+  \item cost 
+    \subitem  fixed, \hyperpage{150}
+    \subitem  marginal, \hyperpage{151}
+    \subitem  start-up, \hyperpage{150}
+    \subitem  variable, \hyperpage{150}
+
+  \indexspace
+
+  \item decibel, \hyperpage{449}
+  \item depreciation, \hyperpage{425}
+  \item diagram 
+    \subitem  mapping, \hyperpage{35}
+    \subitem  Venn Diagram, \hyperpage{2}
+  \item discrete, \hyperpage{45}
+  \item discriminant, \hyperpage{228}, \hyperpage{238}
+  \item division 
+    \subitem  dividend, \hyperpage{203}
+    \subitem  divisor, \hyperpage{203}
+    \subitem  quotient, \hyperpage{203}
+    \subitem  remainder, \hyperpage{203}
+  \item domain 
+    \subitem  definition, \hyperpage{36}
+
+  \indexspace
+
+  \item earthquake 
+    \subitem  Richter Scale, \hyperpage{449}
+  \item empty set, \hyperpage{2}
+  \item end behavior 
+    \subitem  of a function graph, \hyperpage{260}
+    \subitem  of monomial functions, \hyperpage{261}
+  \item equation 
+    \subitem  linear, \hyperpage{125}
+    \subitem  quadratic, \hyperpage{220}
+    \subitem  quadratic 
+      \subsubitem  discriminant, \hyperpage{228}
+      \subsubitem  quadratic in form, \hyperpage{227}
+  \item equations 
+    \subitem  quadratic, \hyperpage{220}
+  \item even function, \hyperpage{256}
+  \item exponent, \hyperpage{23}
+  \item exponential function 
+    \subitem  algebraic properties of, \hyperpage{421}, \hyperpage{456}
+    \subitem  change of base formula, \hyperpage{461}
+    \subitem  common base, \hyperpage{421}
+    \subitem  definition of, \hyperpage{420}
+    \subitem  graphical properties of, \hyperpage{421}
+    \subitem  inverse properties of, \hyperpage{456}
+    \subitem  natural base, \hyperpage{421}
+    \subitem  one-to-one properties of, \hyperpage{456}
+    \subitem  point-base form, \hyperpage{428}
+    \subitem  solving equations with, \hyperpage{467}
+
+  \indexspace
+
+  \item formula 
+    \subitem  quadratic, \hyperpage{223}
+  \item function 
+    \subitem  (absolute) maximum, \hyperpage{40}
+    \subitem  (absolute, global) minimum, \hyperpage{40}
+    \subitem  absolute value, \hyperpage{175}
+    \subitem  arithmetic, \hyperpage{340}
+    \subitem  composite 
+      \subsubitem  definition of, \hyperpage{360}
+      \subsubitem  properties of, \hyperpage{365}
+    \subitem  constant, \hyperpage{145}
+    \subitem  definition, \hyperpage{35}
+    \subitem  difference, \hyperpage{340}
+    \subitem  even, \hyperpage{256}
+    \subitem  exponential, \hyperpage{420}
+    \subitem  identity, \hyperpage{158}
+    \subitem  inverse 
+      \subsubitem  definition of, \hyperpage{398}
+      \subsubitem  properties of, \hyperpage{399}
+      \subsubitem  solving for, \hyperpage{408}
+    \subitem  linear, \hyperpage{148}
+    \subitem  logarithmic, \hyperpage{437}
+    \subitem  monomial, \hyperpage{255}
+    \subitem  monomial 
+      \subsubitem  Laurent, \hyperpage{291}
+    \subitem  odd, \hyperpage{257}
+    \subitem  one-to-one, \hyperpage{403}
+    \subitem  optimization, \hyperpage{39}
+    \subitem  piecewise-defined, \hyperpage{146}
+    \subitem  price-demand, \hyperpage{153}
+    \subitem  product, \hyperpage{340}
+    \subitem  quadratic, \hyperpage{231}
+    \subitem  quotient, \hyperpage{340}
+    \subitem  rational, \hyperpage{291}
+    \subitem  sum, \hyperpage{340}
+    \subitem  transformation of graphs, \hyperpage{108}
+  \item function, $n$th root, \hyperpage{320}
+
+  \indexspace
+
+  \item general form of a line, \hyperpage{136}
+  \item graph 
+    \subitem  horizontal scaling, \hyperpage{101}
+    \subitem  horizontal shift, \hyperpage{87}
+    \subitem  reflection about an axis, \hyperpage{92}
+    \subitem  transformations, \hyperpage{108}
+    \subitem  vertical scaling, \hyperpage{100}
+    \subitem  vertical shift, \hyperpage{86}
+  \item greatest integer function, \hyperpage{147}
+
+  \indexspace
+
+  \item Henderson-Hasselbalch Equation, \hyperpage{464}
+  \item horizontal asymptote 
+    \subitem  formal definition of, \hyperpage{292}
+    \subitem  intuitive definition of, \hyperpage{292}
+  \item horizontal line, \hyperpage{133}
+
+  \indexspace
+
+  \item identity 
+    \subitem  function, \hyperpage{365}
+  \item index of a root, \hyperpage{28}
+  \item inequality 
+    \subitem  graphical interpretation, \hyperpage{186}
+  \item integer 
+    \subitem  definition of, \hyperpage{4}
+    \subitem  greatest integer function, \hyperpage{147}
+    \subitem  set of, \hyperpage{4}
+  \item intercept 
+    \subitem  $x$-intercept, \hyperpage{148}
+    \subitem  $y$-intercept, \hyperpage{148}
+  \item intersection of two sets, \hyperpage{2}
+  \item interval 
+    \subitem  closed, \hyperpage{7}
+    \subitem  definition of, \hyperpage{6}
+    \subitem  notation for, \hyperpage{6}
+    \subitem  open, \hyperpage{7}
+  \item inverse 
+    \subitem  of a function 
+      \subsubitem  definition of, \hyperpage{398}
+      \subsubitem  properties of, \hyperpage{399}
+      \subsubitem  solving for, \hyperpage{408}
+  \item invertibility 
+    \subitem  function, \hyperpage{404}
+  \item invertible 
+    \subitem  function, \hyperpage{398}
+  \item irrational number 
+    \subitem  definition of, \hyperpage{4}
+    \subitem  set of, \hyperpage{4}
+
+  \indexspace
+
+  \item Learning Curve Equation, \hyperpage{300}
+  \item line 
+    \subitem  general form, \hyperpage{136}
+    \subitem  horizontal, \hyperpage{133}
+    \subitem  linear function, \hyperpage{148}
+    \subitem  point-slope form, \hyperpage{135}
+    \subitem  slope of, \hyperpage{130}
+    \subitem  slope-intercept form, \hyperpage{135}
+    \subitem  vertical, \hyperpage{133}
+  \item linear function, \hyperpage{148}
+  \item linear function 
+    \subitem  point-slope form, \hyperpage{151}
+    \subitem  slope-intercept, \hyperpage{148}
+  \item logarithm 
+    \subitem  algebraic properties of, \hyperpage{456}
+    \subitem  change of base formula, \hyperpage{461}
+    \subitem  common, \hyperpage{437}
+    \subitem  general, ``base $b$'', \hyperpage{437}
+    \subitem  graphical properties of, \hyperpage{438}
+    \subitem  inverse properties of, \hyperpage{456}
+    \subitem  natural, \hyperpage{437}
+    \subitem  one-to-one properties of, \hyperpage{456}
+    \subitem  solving equations with, \hyperpage{475}
+  \item logarithmic scales, \hyperpage{449}
+
+  \indexspace
+
+  \item marginal cost, \hyperpage{151}
+  \item maximum 
+    \subitem  formal definition of, \hyperpage{40}
+    \subitem  intuitive definition of, \hyperpage{40}
+  \item minimum 
+    \subitem  formal definition of, \hyperpage{40}
+    \subitem  intuitive definition of, \hyperpage{40}
+  \item monomial, \hyperpage{199}
+  \item monomial function 
+    \subitem  definition of, \hyperpage{255}
+    \subitem  Laurent, \hyperpage{291}
+
+  \indexspace
+
+  \item natural base, \hyperpage{421}
+  \item natural logarithm, \hyperpage{437}
+  \item natural number 
+    \subitem  definition of, \hyperpage{4}
+    \subitem  set of, \hyperpage{4}
+  \item negative part of a function, \hyperpage{354}
+  \item Newton's Law of Cooling, \hyperpage{429}
+  \item number 
+    \subitem  prime, \hyperpage{208}
+    \subitem  prime factorization, \hyperpage{208}
+
+  \indexspace
+
+  \item objective function, \hyperpage{241}
+  \item odd function, \hyperpage{257}
+  \item one-to-one function, \hyperpage{403}
+  \item open interval, \hyperpage{7}
+  \item optimization, \hyperpage{39}
+  \item optimization 
+    \subitem  constraint, \hyperpage{241}
+    \subitem  objective function, \hyperpage{241}
+
+  \indexspace
+
+  \item parabola 
+    \subitem  graph of a quadratic function, \hyperpage{231}
+    \subitem  vertex, \hyperpage{231}
+    \subitem  vertex formulas, \hyperpage{237}
+  \item parameter 
+    \subitem  of a function, \hyperpage{145}
+  \item pH, \hyperpage{450}
+  \item point-base form 
+    \subitem  of an exponential function, \hyperpage{428}
+  \item point-slope form 
+    \subitem  of a linear function, \hyperpage{151}
+  \item point-slope form of a line, \hyperpage{135}
+  \item polynomial, \hyperpage{199}
+  \item polynomial 
+    \subitem  coefficient, \hyperpage{199}
+    \subitem  constant, \hyperpage{199}
+    \subitem  degree, \hyperpage{199}
+    \subitem  irreducible, \hyperpage{208}
+    \subitem  simplified, \hyperpage{199}
+  \item polynomial function 
+    \subitem  end behavior, \hyperpage{260}
+  \item positive part of a function, \hyperpage{354}
+  \item power rule 
+    \subitem  for absolute value, \hyperpage{170}
+    \subitem  for exponential functions, \hyperpage{421}, 
+		\hyperpage{456}
+    \subitem  for logarithms, \hyperpage{456}
+    \subitem  for radicals, \hyperpage{29}
+  \item price-demand function, \hyperpage{153}
+  \item principal $\text  {n}^{\text  {th}}$ root, \hyperpage{28}
+  \item product rule 
+    \subitem  for absolute value, \hyperpage{170}
+    \subitem  for exponential functions, \hyperpage{421}, 
+		\hyperpage{456}
+    \subitem  for logarithms, \hyperpage{456}
+    \subitem  for radicals, \hyperpage{29}
+  \item profit, \hyperpage{238}
+  \item projection 
+    \subitem  to an axis, \hyperpage{47}
+
+  \indexspace
+
+  \item quadratic formula, \hyperpage{223}, \hyperpage{238}
+  \item quadratic function 
+    \subitem  definition of, \hyperpage{231}
+    \subitem  general form, \hyperpage{234}
+    \subitem  standard form, \hyperpage{234}
+  \item quotient rule 
+    \subitem  for absolute value, \hyperpage{170}
+    \subitem  for exponential functions, \hyperpage{421}, 
+		\hyperpage{456}
+    \subitem  for logarithms, \hyperpage{456}
+    \subitem  for radicals, \hyperpage{29}
+
+  \indexspace
+
+  \item radical 
+    \subitem  properties of, \hyperpage{29}
+  \item radicand, \hyperpage{28}
+  \item range 
+    \subitem  definition, \hyperpage{36}
+  \item rate of change 
+    \subitem  relative, \hyperpage{429}
+  \item rational exponent, \hyperpage{29}
+  \item rational function, \hyperpage{290}
+  \item rational number 
+    \subitem  definition of, \hyperpage{4}
+    \subitem  set of, \hyperpage{4}
+  \item real number 
+    \subitem  definition of, \hyperpage{4}
+    \subitem  set of, \hyperpage{4}
+  \item reflection 
+    \subitem  of a function graph, \hyperpage{92}
+  \item relation
+    \subitem  definition, \hyperpage{378}
+  \item relative rate of change, \hyperpage{429}
+  \item relatively prime, \hyperpage{20}
+  \item revenue, \hyperpage{238}
+  \item Richter Scale, \hyperpage{449}
+  \item root 
+    \subitem  index, \hyperpage{28}
+    \subitem  radicand, \hyperpage{28}
+
+  \indexspace
+
+  \item Scientific Notation, \hyperpage{27}
+  \item set 
+    \subitem  definition of, \hyperpage{1}
+    \subitem  empty, \hyperpage{2}
+    \subitem  exclusion, \hyperpage{1}
+    \subitem  inclusion, \hyperpage{1}
+    \subitem  intersection, \hyperpage{2}
+    \subitem  roster method, \hyperpage{1}
+    \subitem  set-builder notation, \hyperpage{1}
+    \subitem  sets of real numbers, \hyperpage{4}
+    \subitem  union, \hyperpage{2}
+    \subitem  verbal description, \hyperpage{1}
+  \item set-builder notation, \hyperpage{1}
+  \item slope 
+    \subitem  definition, \hyperpage{130}
+    \subitem  of a line, \hyperpage{130}
+  \item slope-intercept form of a line, \hyperpage{135}
+  \item solution 
+    \subitem  extraneous, \hyperpage{283}
+  \item sound intensity level 
+    \subitem  decibel, \hyperpage{449}
+  \item subset 
+    \subitem  definition of, \hyperpage{2}
+  \item symmetry 
+    \subitem  testing an equation for, \hyperpage{383}
+
+  \indexspace
+
+  \item term 
+    \subitem  like, \hyperpage{199}
+  \item Thurstone, Louis Leon, \hyperpage{300}
+  \item transformation 
+    \subitem  non-rigid, \hyperpage{98}
+    \subitem  rigid, \hyperpage{98}
+  \item transformations of function graphs, \hyperpage{108}
+  \item trichotomy, \hyperpage{6}
+  \item trinomial, \hyperpage{199}
+
+  \indexspace
+
+  \item union of two sets, \hyperpage{2}
+  \item unit step function, \hyperpage{155}
+
+  \indexspace
+
+  \item variable 
+    \subitem  dependent, \hyperpage{37}
+    \subitem  independent, \hyperpage{37}
+  \item variable cost, \hyperpage{150}
+  \item Venn Diagram, \hyperpage{2}
+  \item vertex, \hyperpage{176}
+  \item vertex 
+    \subitem  absolute value function, \hyperpage{176}
+    \subitem  of a parabola, \hyperpage{231}
+  \item vertical asymptote 
+    \subitem  formal definition of, \hyperpage{292}
+    \subitem  intuitive definition of, \hyperpage{292}
+  \item vertical line, \hyperpage{133}
+
+  \indexspace
+
+  \item whole number 
+    \subitem  definition of, \hyperpage{4}
+    \subitem  set of, \hyperpage{4}
+
+  \indexspace
+
+  \item zeros, \hyperpage{148}
+
+\end{theindex}

@@ -70,12 +70,12 @@ On the flip side, as $x \rightarrow \infty$, we find $f(100) = 2^{100}$, $f(1000
 
 \smallskip
 
-We note that by  `connecting the dots in a pleasing fashion,' we are implicitly using the fact that $f(x) = 2^{x}$ is not only defined for all real numbers,\footnote{See the discussion of real number exponents in  Section \ref{PowerFunctions}.}  but  is also \textit{continuous}.   Moreover, we are assuming $f(x) = 2^{x}$ is increasing:  that is, if $a<b$, then $2^{a} < 2^{b}$. While these facts are true, the proofs of these properties are best left to Calculus. For us, we assume these properties in order to state the domain of $f$ is $(-\infty, \infty)$, the range of $f$ is $(0, \infty)$ and,  since $f$ is increasing, $f$ is one-to-one, hence invertible.
+We note that by  `connecting the dots in a pleasing fashion,' we are implicitly using the fact that $f(x) = 2^{x}$ is not only defined for all real numbers,\co{\footnote{See the discussion of real number exponents in  Section \ref{PowerFunctions}.}}  but  is also \textit{continuous}.   Moreover, we are assuming $f(x) = 2^{x}$ is increasing:  that is, if $a<b$, then $2^{a} < 2^{b}$. While these facts are true, the proofs of these properties are best left to Calculus. For us, we assume these properties in order to state the domain of $f$ is $(-\infty, \infty)$, the range of $f$ is $(0, \infty)$ and,  since $f$ is increasing, $f$ is one-to-one, hence invertible.
  
     
 \smallskip
 
-Suppose we wish to study the family of functions $f(x) = b^{x}$.  Which bases $b$ make sense to study?  We find that we run into difficulty if $b < 0$.  For example, if $b = -2$, then the function $f(x) = (-2)^{x}$ has trouble, for instance, at $x = \frac{1}{2}$ since $(-2)^{1/2} = \sqrt{-2}$ is not a real number. In general, if $x$ is any rational number with an even denominator,\footnote{or, as we defined real number exponents in Section \ref{PowerFunctions}, if $x$ is an irrational  number \ldots} then $(-2)^{x}$ is not defined, so we must restrict our attention to bases $b \geq 0$.  
+Suppose we wish to study the family of functions $f(x) = b^{x}$.  Which bases $b$ make sense to study?  We find that we run into difficulty if $b < 0$.  For example, if $b = -2$, then the function $f(x) = (-2)^{x}$ has trouble, for instance, at $x = \frac{1}{2}$ since $(-2)^{1/2} = \sqrt{-2}$ is not a real number. In general, if $x$ is any rational number with an even denominator,\co{\footnote{or, as we defined real number exponents in Section \ref{PowerFunctions}, if $x$ is an irrational  number \ldots}} then $(-2)^{x}$ is not defined, so we must restrict our attention to bases $b \geq 0$.  
 
 \smallskip
 
@@ -260,7 +260,7 @@ We summarize the basic properties of exponential functions in the following theo
 \smallskip
 
 
-Exponential functions also inherit the basic properties of exponents from Theorem \ref{exponentprops}.  We formalize these below and use them as needed in the coming examples.
+Exponential functions also inherit the basic properties of exponents\co{ from Theorem \ref{exponentprops}}.  We formalize these below and use them as needed in the coming examples.
 
 \smallskip
 
@@ -293,11 +293,11 @@ The second base is an irrational number, $e$.  Like $\sqrt{2}$ or $\pi$, the dec
 
 \smallskip
 
-The number $e$ is called the \index{natural base}\index{exponential function ! natural base}`\textbf{natural base}' for lots of reasons, one of which is that it `naturally' arises in the study of growth functions in Calculus.  We will more formally discuss the origins of $e$  in Section \ref{ExpLogApplications}.
+The number $e$ is called the \index{natural base}\index{exponential function ! natural base}`\textbf{natural base}' for lots of reasons, one of which is that it `naturally' arises in the study of growth functions in Calculus.  \co{We will more formally discuss the origins of $e$  in Section \ref{ExpLogApplications}.
 
 \smallskip
  
-It is time for an example.
+It is time for an example.}
 
 \begin{ex} \label{expfcngraphsex} $~$
 
@@ -702,7 +702,7 @@ so  after $k$ years' time, the value of the car $V(t)$ has decreased by $((0.8)^
 
 \smallskip
 
-Since we have yet to develop any analytic means to solve equations like $25(0.8)^t = 12.5$ (since $t$ is in the exponent here), we are forced to approximate solutions to this equation numerically\footnote{Since exponential functions are continuous we could use the Bisection Method to solve $f(t) = 25(0.8)^t - 12.5=0$.  See the discussion on  page \pageref{bisectionmethod} in Section \ref{RealZeros} for more details.} or use a graphing utility.  Choosing the latter, we graph $y = V(t)$ along with the lines $y = 12.5$ and $y = 6.125$ and look for intersection points.  
+Since we have yet to develop any analytic means to solve equations like $25(0.8)^t = 12.5$ (since $t$ is in the exponent here), we are forced to approximate solutions to this equation numerically\co{\footnote{Since exponential functions are continuous we could use the Bisection Method to solve $f(t) = 25(0.8)^t - 12.5=0$.  See the discussion on  page \pageref{bisectionmethod} in Section \ref{RealZeros} for more details.}} or use a graphing utility.  Choosing the latter, we graph $y = V(t)$ along with the lines $y = 12.5$ and $y = 6.125$ and look for intersection points.  
 
 \smallskip
 
@@ -720,7 +720,7 @@ We find $y = V(t)$ and $y = 12.5$ intersect at (approximately) $(3.106 12.5)$ wh
 
 \end{ex}
 
-Some remarks about Example \ref{cardepreciationex} are in order.  First the function in the previous example is  called a `decay curve'.  Increasing exponential functions are used to model `growth curves' and we shall see several different examples of those in Section \ref{ExpLogApplications}.  
+Some remarks about Example \ref{cardepreciationex} are in order.  First the function in the previous example is  called a `decay curve'.  Increasing exponential functions are used to model `growth curves'\co{ and we shall see several different examples of those in Section \ref{ExpLogApplications}}.  
 
 \smallskip
 
@@ -730,7 +730,7 @@ Second, as seen in numbers \ref{georatio1} and \ref{georatio2},  $V(t+1) = 0.8 V
 
 Indeed, exponential functions of the form $f(x) = a \cdot b^{x}$  have a constant unit multiplier, $b$.  To see this,  note \[ \dfrac{f(x+1)}{f(x)} = \dfrac{a \cdot b^{x+1}}{ a \cdot b^{x}} = b^{1} = b.\]
 
-Hence $f(x+1) = f(x) \cdot b$.  This will prove useful to us in Section \ref{ExpLogApplications} when making decisions about whether or not a data set represents exponential growth or decay.  
+Hence $f(x+1) = f(x) \cdot b$.  \co{This will prove useful to us in Section \ref{ExpLogApplications} when making decisions about whether or not a data set represents exponential growth or decay. } 
 
 \smallskip
 
@@ -800,7 +800,7 @@ We close this section with another important application of exponential function
 
 \smallskip
 
-\begin{ex}  \label{exptempex} According to \href{http://en.wikipedia.org/wiki/Heat_transfer#Newton.27s_law_of_cooling}{\underline{Newton's Law of Cooling}}\footnote{We will discuss this in greater detail in Section \ref{ExpLogApplications}.} the temperature of coffee $T(t)$ (in degrees Fahrenheit) $t$ minutes after it is served can be modeled by $T(t) = 70 + 90 e^{-0.1 t}$. \index{Newton's Law of Cooling}
+\begin{ex}  \label{exptempex} According to \href{http://en.wikipedia.org/wiki/Heat_transfer#Newton.27s_law_of_cooling}{\underline{Newton's Law of Cooling}}\co{\footnote{We will discuss this in greater detail in Section \ref{ExpLogApplications}.}} the temperature of coffee $T(t)$ (in degrees Fahrenheit) $t$ minutes after it is served can be modeled by $T(t) = 70 + 90 e^{-0.1 t}$. \index{Newton's Law of Cooling}
 
 \begin{enumerate}
 
