@@ -7,7 +7,7 @@
 \label{AppRealNumberArithmetic}
 
 
-In this section we list the properties of real number arithmetic.  This is meant to be a succinct, targeted review so we'll resist the temptation to wax poetic about these axioms and their subtleties and refer the interested reader to a more formal course in Abstract Algebra.  There are two primary operations one can perform with real numbers:  addition and multiplication.  We'll start with the properties of addition.
+In this section\footnote{Some parts of this section are from {\sc Beginning and Intermediate Algebra} by Tyler Wallace \url{http://www.wallace.ccfaculty.org/}} we list the properties of real number arithmetic.  This is meant to be a succinct, targeted review so we'll resist the temptation to wax poetic about these axioms and their subtleties and refer the interested reader to a more formal course in Abstract Algebra.  There are two primary operations one can perform with real numbers:  addition and multiplication.  We'll start with the properties of addition.
 
 \medskip
 
@@ -123,15 +123,15 @@ Suppose $a$ and $b$ are real numbers.
 
 \item  \textbf{Zeros in Fractions:}  If $a \neq 0$, $\dfrac{0}{a} = 0 \cdot \left(\dfrac{1}{a}\right) = 0$.
 
-\textbf{Note:}  The quantity $\dfrac{a}{0}$ is undefined.\footnote{The expression $\frac{0}{0}$ is technically an `indeterminant form' as opposed to being strictly `undefined' meaning that with Calculus we can make some sense of it in certain situations.  We'll talk more about this in Chapter \ref{RationalFunctions}.}
+\textbf{Note:}  The quantity $\dfrac{a}{0}$ is undefined.\footnote{The expression $\frac{0}{0}$ is technically an `indeterminant form' as opposed to being strictly `undefined' meaning that with Calculus we can make some sense of it in certain situations.  \co{We'll talk more about this in Chapter \ref{RationalFunctions}.}}
 
 \end{itemize}
 
 \ebm}
 
-\pagebreak
+%\pagebreak
 
-The Zero Product Property drives most of the equation solving algorithms in Algebra because it allows us to take complicated equations and reduce them to simpler ones.  For example, you may recall that one way to solve  $x^2+x-6=0$ is by factoring\footnote{Don't worry.  We'll review this in due course.  And, yes, this is our old friend the Distributive Property!} the left hand side of this equation to get  $(x-2)(x+3) = 0$.  From here, we apply the Zero Product Property and set each factor equal to zero.  This yields  $x-2=0$ or $x+3=0$ so $x=2$ or $x=-3$.  This application to solving equations leads, in turn,  to some deep and profound structure theorems in Chapter \ref{PolynomialFunctions}. 
+The Zero Product Property drives most of the equation solving algorithms in Algebra because it allows us to take complicated equations and reduce them to simpler ones.  For example, you may recall that one way to solve  $x^2+x-6=0$ is by factoring\footnote{Don't worry.  We'll review this in due course.  And, yes, this is our old friend the Distributive Property!} the left hand side of this equation to get  $(x-2)(x+3) = 0$.  From here, we apply the Zero Product Property and set each factor equal to zero.  This yields  $x-2=0$ or $x+3=0$ so $x=2$ or $x=-3$.  \co{This application to solving equations leads, in turn,  to some deep and profound structure theorems in Chapter \ref{PolynomialFunctions}. }
 
 \medskip
 
@@ -174,7 +174,7 @@ An important point here is that when we `distribute' negatives, we do so across 
 
 The same sort of thing goes for fractions:  $- \frac{3}{5}$ can be written as $\frac{-3}{5}$ or $\frac{3}{-5}$, but not $\frac{-3}{-5}$.  
 
-\pagebreak
+%\pagebreak
 
 Speaking of fractions, we now review their arithmetic.
 
@@ -227,7 +227,7 @@ In particular, $\dfrac{ab}{b} = a$ since $\dfrac{ab}{b} = \dfrac{ab}{1 \cdot b} 
 
 Students make so many mistakes with fractions that we feel it is necessary to pause the narrative for a moment and offer you the following examples.  Please take the time to read these carefully.  In the main body of the text we will skip many of the steps shown here and it is your responsibility to understand the arithmetic behind the computations we use throughout the text.  We deliberately limited these examples to ``nice'' numbers (meaning that the numerators and denominators of the fractions are small integers) and will discuss more complicated matters later.  In the upcoming example, we will make use of the \href{https://en.wikipedia.org/wiki/Fundamental_theorem_of_arithmetic}{\underline{Fundamental Theorem of Arithmetic}} which essentially says that every natural number has a unique prime factorization.  Thus `lowest terms' is clearly defined when reducing the  fractions you're about to see.
 
-\pagebreak
+%\pagebreak
 
 \begin{ex} \label{fractionreview}  Perform the indicated operations and simplify. By `simplify' here, we mean to have the final answer written in the form $\frac{a}{b}$ where $a$ and $b$ are integers which have no common factors.  Said another way, we want $\frac{a}{b}$ in `lowest terms'.
 
@@ -399,7 +399,6 @@ Suppose $a$ and $b$ are nonzero real numbers and $n$ and $m$ are integers.
 
 While it is important the state the Properties of Exponents, it is also equally important to take a moment to discuss one of the most common errors in Algebra.  It is true that $(ab)^2 = a^2 b^2$ (which some students refer to as `distributing' the exponent to each factor) but you cannot do this sort of thing with addition.  That is, in general,   $(a+b)^2 \neq a^2 + b^2$. (For example, take $a= 3$ and $b = 4$.)  The same goes for any other powers.
 
-\pagebreak
 
 With exponents now in the mix, we can now state the Order of Operations Agreement.
 
@@ -521,6 +520,148 @@ Since $120$ and $119$ have no common factors, we are done.  \qed
 
 \medskip
 
+\begin{ex} \label{exponentreview2}  Perform the indicated operations and simplify.
+
+\begin{multicols}{2}
+\begin{enumerate}
+
+\item $2 x^3 y^5 z \cdot 5 x y^2 z^3$
+\item $ \dfrac{5 a^3 b^5 c^2}{2 a b^3 c}$
+
+\setcounter{HW}{\value{enumi}}
+\end{enumerate}
+\end{multicols}
+
+\begin{multicols}{2}
+\begin{enumerate}
+
+\setcounter{enumi}{\value{HW}}
+
+\item $(x^3 y z^2)^4$
+\item $\left( \dfrac{a^3 b}{c^8 d^5} \right)^2$
+
+\end{enumerate}
+\end{multicols}
+
+{\bf Solution.}
+
+\begin{enumerate}
+
+\item \[
+\begin{array}{cll}
+& 2 x^3 y^5 z \cdot 5 x y^2 z^3 & \\
+= & 2\cdot5 x^3 x y^5 y^2 z z^3 & \quad\text{Rearranged the terms by the commutativity property.}\\[8pt]
+= & 10 x^{3+1} y^{5+2} z^{1+3} & \quad\text{Combined the exponents by the product rule.}\\[8pt]
+= & 10 x^4 y^7 z^4 
+\end{array}
+\]
+
+\item \[
+\begin{array}{cll}
+& \dfrac{5 a^3 b^5 c^2}{2 a b^3 c} & \\[8pt]
+= & \dfrac{5}{2}a^{3-1} b^{5-3} x^{2-1}& \quad\text{Combined the exponents by the quotient rule.}\\[8pt]
+= & \dfrac{5}{2} a^2 b^2 c   
+\end{array}
+\]
+
+\item \[
+\begin{array}{cll}
+& (x^3 y z^2)^4 & \\[8pt]
+= & (x^3)^4 (y^1)^4 (z^2)^4 & \quad\text{Distributed the exponent by the product rule.}\\[8pt]
+= & x^{3\cdot 4} y^{1\cdot 4} z^{2\cdot 4} & \quad\text{Simplified the exponents by the power rule.}\\[8pt]
+= & x^{12} y^4 z^8 
+\end{array}
+\]
+
+\item \[
+\begin{array}{cll}
+& \left( \dfrac{a^3 b}{c^8 d^5} \right)^2 & \\[8pt]
+= & \dfrac{(a^3 b)^2}{(c^8 d^5)^2} & \quad\text{Distributed the exponent by the quotient rule.}\\[8pt]
+= & \dfrac{(a^3)^2 b^2}{(c^8)^2 (d^5)^2} & \quad\text{Distributed the exponent by the product rule.}\\[8pt]
+= & \dfrac{a^6 b^2}{c^{16} d^{10}} & \quad\text{Simplified the exponents by the power rule.}\\
+\end{array}
+\]
+\vspace{-.3in} \qed
+\end{enumerate}
+\end{ex}
+
+
+\medskip
+
+\begin{ex} \label{exponentreview3}  Perform the indicated operations and simplify completely expressing only with positive
+exponents.
+
+\begin{multicols}{2}
+\begin{enumerate}
+
+\item $\dfrac{a^3 b^{- 2} c}{2 d^{- 1} e^{- 4} f^2}$
+\item $\dfrac{4 x^{- 5} y^{- 3} \cdot 3 x^3 y^{- 2}}{6 x^{- 5} y^3}$
+
+\setcounter{HW}{\value{enumi}}
+\end{enumerate}
+\end{multicols}
+
+\begin{multicols}{2}
+\begin{enumerate}
+
+\setcounter{enumi}{\value{HW}}
+
+\item $\dfrac{(3 {ab}^3)^{- 2} {ab}^{- 3}}{2 a^{- 4} b^0}$
+\item $\left( \dfrac{3 x^{- 2} y^5 z^3 \cdot 6 x^{- 6} y^{- 2} z^{- 3}}{9 (x^2y^{- 2})^{- 3}} \right)^{- 3}$
+
+\end{enumerate}
+\end{multicols}
+
+{\bf Solution.}
+
+\begin{enumerate}
+
+\item \[
+\begin{array}{cll}
+& \dfrac{a^3 b^{- 2} c}{2 d^{- 1} e^{- 4} f^2} & \\[8pt]
+ = &  \dfrac{a^3 c d e^4}{2 b^2 f^2} &  \text{Using the property of negative exponents on b, d, and e.}\\
+\end{array}
+\]
+
+\item \[
+\begin{array}{cll}
+& \dfrac{4 x^{- 5} y^{- 3} \cdot 3 x^3 y^{- 2}}{6 x^{- 5} y^3} & \\[8pt]
+= & \dfrac{12 x^{- 2} y^{- 5}}{6 x^{- 5} y^3} &  \text{Simplified the numerator using the product rule.}\\[8pt]
+= & 2 x^3 y^{- 8} & \text{Using the quotient rule.}\\[8pt]
+= & \dfrac{2 x^3}{y^8} &  \text{Using the property of negative exponents.}
+\end{array}
+\]
+
+\item \[
+\begin{array}{cll}
+& \dfrac{(3 {ab}^3)^{- 2} {ab}^{- 3}}{2 a^{- 4} b^0} & \\[8pt]
+= & \dfrac{3^{- 2} a^{- 2} b^{- 6} {ab}^{- 3}}{2 a^{- 4}} & \text{Using the product rule and the power rule. And $b^0=1$.}\\[8pt]
+= & \dfrac{3^{- 2} a^{- 1} b^{- 9}}{2 a^{- 4}} & \text{Using the product rule.}\\[8pt]
+= & \dfrac{3^{- 2} a^3 b^{- 9}}{2} &  \text{Using the quotient rule.}\\[8pt]
+= & \dfrac{a^3}{3^2 2 b^9} & \text{Using the property of negative exponents.} \\[8pt]
+= & \dfrac{a^3}{18 b^9} & 
+\end{array}
+\]
+
+\item \[
+\begin{array}{cll}
+& \left( \dfrac{3 x^{- 2} y^5 z^3 \cdot 6 x^{- 6} y^{- 2} z^{- 3}}{9 (x^2y^{- 2})^{- 3}} \right)^{- 3} &  \text{}\\[8pt]
+= & \left( \dfrac{18 x^{- 8} y^3 z^0}{9^{} x^{- 6} y^6} \right)^{- 3} &  \text{Simplified the numerator and denominator using the product rule.}\\[8pt]
+= & (2 x^{- 2} y^{- 3} z^0)^{- 3} & \text{Simplifying inside the parenthesis using the quotient rule}\\[8pt]
+= & 2^{- 3} x^6 y^9 z^0 & \text{Using the product and power rule. And $z^0 = 1$.}\\[8pt]
+= & \dfrac{x^6 y^9}{2^3} & \text{Using the property of negative exponents.}\\[8pt]
+= & \dfrac{x^6 y^9}{8} &
+\end{array}
+\]
+
+\vspace{-.3in} \qed
+\end{enumerate}
+\end{ex}
+
+
+\medskip
+
+
 One of the places where the properties of exponents play an important role is in the use of \textbf{Scientific Notation}.\index{Scientific Notation}  The basis for scientific notation is that since we use \underline{dec}imals (base ten numerals) to represent real numbers, we can adjust where the decimal point lies by multiplying by an appropriate power of 10.  This allows scientists and engineers to focus in on the `significant' digits\footnote{Awesome pun!} of a number - the nonzero values - and adjust for the decimal places later.  For instance, $-621 = -6.21 \times 10^2$ and $0.023 = 2.3 \times 10^{-2}$.  Notice here that we revert to using the familiar `$\times$' to indicate multiplication.\footnote{This is the `notable exception' we alluded to earlier.}   In general, we arrange the real number so exactly one non-zero digit appears to the left of the decimal point.  We make this idea precise in the following: 
 
 \medskip
@@ -606,7 +747,7 @@ The reasons for the added stipulations for even-indexed roots in Definition \ref
 
 \smallskip
 
-Dealing with odd powers is much easier. For example, $x^3 = -8$ has one and only one real solution, namely $x = -2$, which means not only does $\sqrt[3]{-8}$ exist, there is only one choice, namely $\sqrt[3]{-8} = -2$. Of course, when it comes to solving $x^{5213} = -117$, it's not so clear that there is one and only one real solution, let alone that the solution is $\sqrt[5213]{-117}$. Such pills are easier to swallow once we've thought a bit about such equations graphically,\footnote{See Chapter \ref{PolynomialFunctions}.} and ultimately, these things come from the completeness property of the real numbers mentioned earlier.  
+Dealing with odd powers is much easier. For example, $x^3 = -8$ has one and only one real solution, namely $x = -2$, which means not only does $\sqrt[3]{-8}$ exist, there is only one choice, namely $\sqrt[3]{-8} = -2$. Of course, when it comes to solving $x^{5213} = -117$, it's not so clear that there is one and only one real solution, let alone that the solution is $\sqrt[5213]{-117}$. Such pills are easier to swallow once we've thought a bit about such equations graphically,\co{\footnote{See Chapter \ref{PolynomialFunctions}.}} and ultimately, these things come from the completeness property of the real numbers mentioned earlier.  
 
 \smallskip
 
@@ -739,7 +880,7 @@ Consider the expression $\left(a^{2/3}\right)^{3/2}$.  Applying the usual laws o
   (\sqrt[3]{-2} - \sqrt[3]{-54})^2 & = & (-\sqrt[3]{2} + 3 \sqrt[3]{2})^2 & = & (2 \sqrt[3]{2})^2  \\ [5pt]
 																	 & = & 2^2 (\sqrt[3]{2})^2 = 4 \sqrt[3]{2^2} & = & 4 \sqrt[3]{4} \\ \end{array} \] There are no perfect integer cubes which are factors of $4$ (apart from $1$, of course), so we are done.
 
-\pagebreak
+%\pagebreak
 
 \item  We start working in the parentheses and get a common denominator to subtract the fractions:\[ \dfrac{9}{4} - 3 = \dfrac{9}{4} - \dfrac{3 \cdot 4}{1 \cdot 4} = \dfrac{9}{4} - \dfrac{12}{4} = \dfrac{-3}{4}  \] The denominators in the fractional exponents are odd, so we can proceed by using the properties of exponents:\[ \begin{array}{rclr}
 
@@ -774,6 +915,49 @@ Consider the expression $\left(a^{2/3}\right)^{3/2}$.  Applying the usual laws o
 \end{ex}
 
 \medskip
+
+\begin{ex} \label{exponentreview3}  Perform the indicated operations and simplify completely expressing only with positive
+exponents.
+
+\begin{multicols}{2}
+\begin{enumerate}
+
+\item $\dfrac{x^2 y^{\frac{2}{3}} \cdot 2 x^{\frac{1}{2}}y^{\frac{5}{6}}}{x^{\frac{7}{2}} y^0}$
+\item $\left( \dfrac{25 x^{\frac{1}{3}} y^{\frac{2}{5}}}{9 x^{\frac{4}{5}} y^{-\frac{3}{2}}} \right)^{- \frac{1}{2}}$ 
+
+\end{enumerate}
+\end{multicols}
+
+{\bf Solution.}
+
+\begin{enumerate}
+
+\item \[
+\begin{array}{cll}
+& \dfrac{x^2 y^{\frac{2}{3}} \cdot 2 x^{\frac{1}{2}}y^{\frac{5}{6}}}{x^{\frac{7}{2}} y^0} &  \\[8pt]
+=& \dfrac{2x^{2+\frac{1}{2}} y^{\frac{4}{6}+\frac{5}{6}}}{x^{\frac{7}{2}} y^0} & \text{Simplify the numerator using the product rule. And $y^0=1$}\\[8pt]
+=& \dfrac{2 x^{\frac{5}{2}} y^{\frac{9}{6}}}{x^{\frac{7}{2}}} & \\[8pt]
+=&  2 x^{- 1} y^{\frac{3}{2}} & \text{Using the quotient rule.}\\[8pt]
+=&  \dfrac{2 y^{\frac{3}{2}}}{x} & \text{Using the property of negative exponents.} 
+\end{array}
+\]
+
+\item \[
+\begin{array}{cll}
+&\left( \frac{25 x^{\frac{1}{3}} y^{\frac{2}{5}}}{9 x^{\frac{4}{5}} y^{-\frac{3}{2}}} \right)^{- \frac{1}{2}} & \\[8pt]
+=&\left( \dfrac{25 x^{\frac{1}{3}-\frac{4}{5}} y^{\frac{2}{5}-\left(-\frac{3}{2}\right)}}{9} \right)^{-\frac{1}{2}} &  \text{Simplifying inside the parenthesis using the quotient rule}\\[8pt]
+=&\left( \dfrac{25 x^{- \frac{7}{15}} y^{\frac{19}{10}}}{9} \right)^{-\frac{1}{2}} &  \\[8pt]
+=&\left( \dfrac{9}{25 x^{- \frac{7}{15}} y^{\frac{19}{10}}}\right)^{\frac{1}{2}} & \text{Using the property of negative exponents.}\\[8pt]
+=&\dfrac{9^{\frac{1}{2}}}{25^{\frac{1}{2}} x^{- \frac{7}{30}}y^{\frac{19}{20}}} & \text{Using the product rule and the power rule.}\\[8pt]
+=&\dfrac{3 x^{\frac{7}{30}}}{5 y^{\frac{19}{20}}} 
+\end{array}
+\]
+
+\vspace{-.3in} \qed
+\end{enumerate}
+\end{ex}
+
+\co{\midskip}
 
 We close this section with a note about simplifying.  In the preceding examples we used ``nice'' numbers because we wanted to show as many properties as we could per example. This then begs the question ``What happens when the numbers are \emph{not} nice?''  Unfortunately, the answer is ``Not much simplifying can be done.''  Take, for example,\[\frac{\sqrt{7}}{\pi} - \frac{3}{\pi^{2}} + \frac{4}{\sqrt{11}} = \frac{\pi\sqrt{77} - 3\sqrt{11} + 4\pi^{2}}{\pi^{2}\sqrt{11}}\]Sadly, that's as good as it gets.
 
