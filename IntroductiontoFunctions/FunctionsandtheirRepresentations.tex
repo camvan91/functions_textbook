@@ -19,7 +19,7 @@ This power of abstraction has a tendency to create a language that is initially 
 
 \colorbox{ResultColor}{\bbm
 
-\begin{defn}
+\begin{defn}[Function]
 
 \label{functiondefn}
 
@@ -332,7 +332,7 @@ By focusing our attention to functions that involve real numbers, we gain access
 
 \end{enumerate}
 
-\pagebreak
+%\pagebreak
 
 \item Let $h(t) = -t\,^{2} + 3t + 4$.
 
@@ -446,7 +446,7 @@ Let us return for a moment to the function $f$  in Example \ref{funcnotatex1} wh
 
 We could turn the tables and ask if the equation $y=3x+5$ describes $x$ as a function of $y$.  That is, for each value we pick for  $y$,  does the equation $y = 3x+5$ produce only one associated $x$ value?  One way to proceed is to solve $y = 3x+5$ for $x$ and get $x= \frac{1}{3} (y-5)$.  We see that for each choice of $y$, the expression $\frac{1}{3} (y-5)$ evaluates to just one number, hence, $x$ is a function of $y$.  If we give this function a name, say $g$, we have $x = g(y) = \frac{1}{3}(y-5)$, where in this equation, $y$ is the independent variable and $x$ is the dependent variable.  We explore this idea in the next example.
 
-\pagebreak
+%\pagebreak
 
 \begin{ex} \label{equationfunction}   $~$
 
@@ -602,7 +602,7 @@ Skippy's temperature function $f$ is an example of a \index{discrete} \textbf{di
 
 In the meantime, our next example involves a function whose domain is (almost) an \textit{interval} of real numbers and whose graph consists of a (mostly) \textit{connected} arc.
 
-\pagebreak
+%\pagebreak
 
 \begin{ex}  \label{functiongraphex01} Consider the graph below.  
 
@@ -779,7 +779,7 @@ To solve $F(v) = 0$, we are looking for the $v$-values where the output, or asso
 
 To find the range of $F$, we need to describe the set of outputs - in this case, the $w$-values on the graph.  Here, we project the graph to the $w$-axis.  Vertically, the graph starts at $(0,-4)$ so our range starts at $w=-4$.  Note that even  though there is a hole at $(1,-3)$, the $w$-value $-3$ is covered by what \textit{appears} to be the point $(-1,-3)$ on the graph.\footnote{For all we know, it could be $(-0.992, -3)$.} The arrow indicates that the graph extends upwards indefinitely so the range of $F$ is   $\{ w \, |  \, w \geq -4 \}$  or, in interval notation, $[-4, \infty)$.   Regarding extrema, $F$ has a minimum of $-4$ when $v = 0$, but given that the graph extends upwards indefinitely, $F$ has  no maximum. 
 
-\pagebreak
+%\pagebreak
 
 Pictures showing the projection of the graph onto the $w$-axis are given below.
 
@@ -862,7 +862,7 @@ Before moving on to our next example, it is worth noting that the geometric argu
 
 \colorbox{ResultColor}{\bbm
 
-\begin{thm}  \textbf{The Vertical Line Test:}   A graph in the $xy$-plane\footnote{That is, the horizontal axis is labeled with `$x$' and the vertical axis is labeled with `$y$'.}  represents $y$ as a function of $x$ if and only if no vertical line intersects the graph more than once.
+\begin{thm}[The Vertical Line Test]  A graph in the $xy$-plane\footnote{That is, the horizontal axis is labeled with `$x$' and the vertical axis is labeled with `$y$'.}  represents $y$ as a function of $x$ if and only if no vertical line intersects the graph more than once.
 \label{VLT}
 
 \end{thm}
@@ -1085,7 +1085,7 @@ We close this section with a summary of the different ways to represent function
 \bigskip
 
 \colorbox{ResultColor}{\bbm
-
+\begin{boxinfo}
 \centerline{\textbf{Ways to Represent a Function}} \label{waystorepresentfunctionsbox}
 
 \smallskip
@@ -1113,7 +1113,7 @@ If $f$ is a function whose domain and range are subsets of real numbers, then $f
 \end{itemize}
 
 Note: An important consequence of the last bulleted item is that the point $(a, b)$ is on the graph of $y = f(x)$ if and only if $f(a) = b.$\label{FundamentalGraphingPrinciple}
-
+\end{boxinfo}
 \ebm}
 
 \newpage

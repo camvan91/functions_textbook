@@ -344,29 +344,24 @@ In the next example, we decompose given functions into sums, differences, produc
 
 \end{multicols}
 
-
 \end{enumerate}
 
 {\bf Solution.}
 
 \begin{enumerate}
 
-\item 
-
-\begin{enumerate}
+\item  \begin{enumerate}
 
 \item To decompose $f = g-h$, we need functions $g$ and $h$ so $f(x) = (g-h)(x) = g(x) - h(x)$.  Given $f(x) = x^2 - 2x$,  one option is to let $g(x) = x^2$ and $h(x) = 2x$.  To check, we find $(g-h)(x) = g(x) - h(x) = x^2-2x = f(x)$ as required.  In addition to checking the formulas match up, we also need to check domains.  There isn't much work here since the domains of $g$ and $h$ are all real numbers which combine to give the domain of $f$ which is all real numbers.
+\item In order to write $f = g+h$, we need $f(x) = (g+h)(x) = g(x) + h(x)$.  One way to accomplish this is to write $f(x) = x^2 - 2x = x^2+(-2x)$ and identify $g(x) = x^2$ and $h(x)  = -2x$.  To check, $(g+h)(x) = g(x) + h(x) = x^2 - 2x = f(x)$.  Again, the domains for both $g$ and $h$ are all real numbers which combine to give $f$ its domain of all real numbers.
 
-\item  In order to write $f = g+h$, we need $f(x) = (g+h)(x) = g(x) + h(x)$.  One way to accomplish this is to write $f(x) = x^2 - 2x = x^2+(-2x)$ and identify $g(x) = x^2$ and $h(x)  = -2x$.  To check, $(g+h)(x) = g(x) + h(x) = x^2 - 2x = f(x)$.  Again, the domains for both $g$ and $h$ are all real numbers which combine to give $f$ its domain of all real numbers.
+\item To write $f = gh$, we require $f(x) = (gh)(x) = g(x) h(x)$.  In other words, we need to factor $f(x)$.  We find $f(x) = x^2-2x = x(x-2)$, so one choice is to select $g(x) = x$ and $h(x) = x-2$.  Then $(gh)(x) = g(x)h(x) = x(x-2) = x^2-2x = f(x)$, as required.  As above, the domains of $g$ and $h$ are all real numbers which combine to give $f$ the correct domain of $(-\infty, \infty)$.
 
-\item  To write $f = gh$, we require $f(x) = (gh)(x) = g(x) h(x)$.  In other words, we need to factor $f(x)$.  We find $f(x) = x^2-2x = x(x-2)$, so one choice is to select $g(x) = x$ and $h(x) = x-2$.  Then $(gh)(x) = g(x)h(x) = x(x-2) = x^2-2x = f(x)$, as required.  As above, the domains of $g$ and $h$ are all real numbers which combine to give $f$ the correct domain of $(-\infty, \infty)$.
-
-\item  We need to be careful here interpreting the equation $f = g(h-k)$.  What we have is an equality of \textit{functions} so the parentheses here \textit{do not} represent function notation here, but, rather function \textit{multiplication}.  The way to parse $g(h-k)$, then, is the function $g$ \textit{times} the function $h-k$. Hence, we seek functions $g$, $h$, and $k$ so that $f(x) = [g(h-k)](x) = g(x) [(h-k)(x)] = g(x) (h(x) - k(x))$.    From the previous example, we know we can rewrite $f(x) = x(x-2)$, so one option is to set $g(x) = h(x) = x$ and $k(x) = 2$ so that $[g(h-k)](x)  =  g(x) [(h-k)(x)]  =  g(x) (h(x) - k(x)) = x(x-2) = x^2-2x = f(x)$, as required.  As above, the domain of all constituent functions is $(-\infty, \infty)$ which matches the domain of $f$.
-
+\item We need to be careful here interpreting the equation $f = g(h-k)$.  What we have is an equality of \textit{functions} so the parentheses here \textit{do not} represent function notation here, but, rather function \textit{multiplication}.  The way to parse $g(h-k)$, then, is the function $g$ \textit{times} the function $h-k$. Hence, we seek functions $g$, $h$, and $k$ so that $f(x) = [g(h-k)](x) = g(x) [(h-k)(x)] = g(x) (h(x) - k(x))$.    From the previous example, we know we can rewrite $f(x) = x(x-2)$, so one option is to set $g(x) = h(x) = x$ and $k(x) = 2$ so that $[g(h-k)](x)  =  g(x) [(h-k)(x)]  =  g(x) (h(x) - k(x)) = x(x-2) = x^2-2x = f(x)$, as required.  As above, the domain of all constituent functions is $(-\infty, \infty)$ which matches the domain of $f$.
 
 \end{enumerate}
 
-\item  \begin{enumerate}
+\item \begin{enumerate}
 
 \item To write $F = \frac{G}{H}$, we need $G(t)$ and $H(t)$ so $F(t)= \left(\frac{G}{H}\right)(t) = \frac{G(t)}{H(t)}$. We choose $G(t) = 2t+1$ and $H(t) = \sqrt{t^2-1}$.  Sure enough, $ \left(\frac{G}{H}\right)(t) = \frac{G(t)}{H(t)} = \frac{2t+1}{ \sqrt{t^2-1}} = F(t)$ as required.  When it comes to the domain of $F$, owing to the square root, we require $t^2-1 \geq 0$.  Since we have a denominator  as well, we require $\sqrt{t^2-1} \neq 0$. The former requirement is the same restriction on $H$, and the latter requirement comes from Definition \ref{functionarithmeticdefn}. Starting with the domain of $G$, all real numbers, and working through the details, we arrive at the correct domain of $F$, $(-\infty, -1) \cup (1, \infty)$.
 
@@ -464,7 +459,7 @@ Our next example invites us to simplify three difference quotients, each cast sl
 
 \end{enumerate}
 
-\newpage
+%\newpage
 
 {\bf Solution.}
  
@@ -594,7 +589,7 @@ In order to cancel the factor `$\Delta t$' from the \textit{denominator}, we set
 
 
 
-\newpage
+%\newpage
 
 \item As one might expect, we use this same strategy to simplify our final  different quotient. We have:
 
@@ -642,7 +637,7 @@ Since we have canceled the original `$\Delta t$' factor from the denominator, we
 
 \end{enumerate}
 
-\newpage
+%\newpage
 
 {\bf Solution.}
 

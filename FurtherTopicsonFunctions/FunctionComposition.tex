@@ -12,7 +12,7 @@ In Section \ref{FunctionArithmetic}, we saw how the arithmetic of real numbers c
 
 \colorbox{ResultColor}{\bbm
 
-\begin{defn} \label{functioncompositiondefn} Let $f$ and $g$ be functions where the real number $x$ is in the domain of $f$ and the real number $f(x)$ is in the domain of $g$.  The \index{function ! composite ! definition of}\index{composite function ! definition of}\textbf{composite} of $g$ with $f$, denoted $g \circ f$, and read `$g$ composed with $f$' is defined by the formula: $(g \circ f) (x) = g(f(x))$.
+\begin{defn}[Composite] \label{functioncompositiondefn} Let $f$ and $g$ be functions where the real number $x$ is in the domain of $f$ and the real number $f(x)$ is in the domain of $g$.  The \index{function ! composite ! definition of}\index{composite function ! definition of}\textbf{composite} of $g$ with $f$, denoted $g \circ f$, and read `$g$ composed with $f$' is defined by the formula: $(g \circ f) (x) = g(f(x))$.
 
 \end{defn}
 \ebm}
@@ -145,19 +145,22 @@ Our solution to $x^2-4x+3 \geq 0$, and hence the domain of $g \circ f$, is $(-\i
 \begin{itemize}
 
 \item  \textit{inside out}: We substitute the expression $g(t) = 2 - \sqrt{t+3}$ in for $x$ in the formula $f(x)$ and get 
-\begin{longtable}{rclr} $(f \circ g)(t)$ & = & $f(g(t))$ = $f\left(2-\sqrt{t+3}\right)$ & \\ [2pt]
- & = & $\left(2-\sqrt{t+3}\right)^2 - 4\left(2-\sqrt{t+3}\right)$ & \\[2pt] 
- & = & $4 - 4\sqrt{t+3} + \left(\sqrt{t+3}\right)^2 - 8 + 4 \sqrt{t+3}$ & \\ [2pt]
- & = & $4 + t+3 - 8$ & \\ 
- & = & $t-1$ & \\
- \end{longtable}
+\[
+\begin{array}{rclr} (f \circ g)(t) = f(g(t)) &= &f\left(2-\sqrt{t+3}\right) & \\ [2pt]
+ & = & \left(2-\sqrt{t+3}\right)^2 - 4\left(2-\sqrt{t+3}\right) & \\[2pt] 
+ & = & 4 - 4\sqrt{t+3} + \left(\sqrt{t+3}\right)^2 - 8 + 4 \sqrt{t+3} & \\ [2pt]
+ & = & 4 + t+3 - 8 & \\ 
+ & = & t-1 & \\
+ \end{array}
+\]
 
 \item  \textit{outside in}:  We use the formula for $f(x)$ first to get
-\begin{longtable}{rclr} $(f \circ g)(t)$ & = & $f(g(t))$ = $\left(g(t)\right)^2 - 4\left(g(t)\right)$& \\ [2pt]
- & = & $\left(2-\sqrt{t+3}\right)^2 - 4\left(2-\sqrt{t+3}\right)$ & \\[2pt] 
- & = & $t-1$ & same algebra as before \\
- \end{longtable}
-
+\[
+\begin{array}{rclr} (f \circ g)(t) = f(g(t))& = &\left(g(t)\right)^2 - 4\left(g(t)\right)& \\ [2pt]
+ & = & \left(2-\sqrt{t+3}\right)^2 - 4\left(2-\sqrt{t+3}\right) & \\[2pt] 
+ & = & t-1 & \text{same algebra as before} \\
+ \end{array}
+\]
 \end{itemize}
 
 Thus we get $(f \circ g)(t) = t-1$.  To find the domain of $f \circ g$, we look for the elements $t$ in the domain of $g$ whose outputs, $g(t)$ are in the domain of $f$.   As mentioned previously, the domain of $g$ is limited by the presence of the square root to  $\{ t \in \mathbb{R} \, | \, t \geq -3\}$  while the domain of $f$ is all real numbers.  Hence,  the domain of $f \circ g$ is restricted only by the domain of $g$ and is $\{ t \in \mathbb{R} \, | \, t \geq -3\}$ or, using interval notation,  $[-3, \infty)$.  Note that as with Example \ref{funcarithex}  in Section \ref{FunctionArithmetic}, had we used the simplified formula for $(f \circ g)(t) = t-1$  to determine domain, we would have arrived at the incorrect answer.
@@ -168,19 +171,22 @@ Thus we get $(f \circ g)(t) = t-1$.  To find the domain of $f \circ g$, we look 
 
 \begin{itemize}
 
-\item  \textit{inside out}: We substitute $h(s)$ in for $t$ in the expression $g(t)$  to get 
-\begin{longtable}{rclr} $(g \circ h)(s)$ & = & $g(h(s))$ = $g\left(\dfrac{2s}{s+1}\right)$  & \\ [12pt]
- & = & $2 - \sqrt{\left(\dfrac{2s}{s+1}\right)+3}$ & \\[12pt] 
- & = & $2 - \sqrt{\dfrac{2s}{s+1} + \dfrac{3(s+1)}{s+1}}$ & get common denominators\\ [12pt]
- & = & $2 - \sqrt{\dfrac{5s+3}{s+1}}$ & \\
- \end{longtable}
+\item  \textit{inside out}: We substitute $h(s)$ in for $t$ in the expression $g(t)$  to get
+\[
+\begin{array}{rclr} (g \circ h)(s) = g(h(s)) & = &g\left(\dfrac{2s}{s+1}\right)  & \\ [12pt]
+ & = & 2 - \sqrt{\left(\dfrac{2s}{s+1}\right)+3} & \\[12pt] 
+ & = & 2 - \sqrt{\dfrac{2s}{s+1} + \dfrac{3(s+1)}{s+1}} & \text{get common denominators}\\ [12pt]
+ & = & 2 - \sqrt{\dfrac{5s+3}{s+1}} & \\
+ \end{array}
+\]
 
 \item  \textit{outside in}:  We use the formula for $g(t)$ first to get
-\begin{longtable}{rclr} $(g \circ h)(s)$ & = & $g(h(s))$ = $2 - \sqrt{h(s)+3}$& \\ [2pt]
-  & = & $2 - \sqrt{\left(\dfrac{2s}{s+1}\right)+3}$ & \\[12pt] 
- & = & $2 - \sqrt{\dfrac{5s+3}{s+1}}$ & get common denominators as before\\
- \end{longtable}
-
+\[
+\begin{array}{rclr} (g \circ h)(s)  = g(h(s)) & = & 2 - \sqrt{h(s)+3}& \\ [2pt]
+  & = & 2 - \sqrt{\left(\dfrac{2s}{s+1}\right)+3} & \\[12pt] 
+ & = & 2 - \sqrt{\dfrac{5s+3}{s+1}} & \text{get common denominators as before}\\
+ \end{array}
+\]
 \end{itemize}
 
 To find the domain of $g \circ h$, we need the elements in the domain of $h$ so that $h(s)$ is in the domain of $g$.  Owing to the $s+1$ in the denominator of the expression  $h(s)$, we require $s \neq -1$.  Once again, because  of the square root in $g(t) = 2 - \sqrt{t+3}$, we need $t \geq -3$ or, in this case $h(s)  \geq -3$.  To use a sign diagram to solve, we rearrange this inequality:
@@ -216,17 +222,20 @@ hence our  domain is $(-\infty, -1) \cup \left[-\frac{3}{5}, \infty\right)$.
 \begin{itemize}
 
 \item  \textit{inside out}: We substitute the expression $g(t)$  for $s$ in the formula $h(s)$
-\begin{longtable}{rclr} $(h \circ g)(t)$ & = & $h(g(t))$ =$h\left(2-\sqrt{t+3}\right)$ & \\ [2pt]
- & = & $\dfrac{2 \left(2-\sqrt{t+3} \right)}{\left(2-\sqrt{t+3}\right)+1}$ & \\[12pt] 
- & = & $\dfrac{4-2\sqrt{t+3}}{3-\sqrt{t+3}}$ & \\
-  \end{longtable}
+\[
+\begin{array}{rclr} (h \circ g)(t)  = h(g(t)) & =&h\left(2-\sqrt{t+3}\right) & \\ [2pt]
+ & = & \dfrac{2 \left(2-\sqrt{t+3} \right)}{\left(2-\sqrt{t+3}\right)+1} & \\[12pt] 
+ & = & \dfrac{4-2\sqrt{t+3}}{3-\sqrt{t+3}} & \\
+  \end{array}
+\]
 
 \item  \textit{outside in}:  We use the formula for $h(s)$ first to get
-\begin{longtable}{rclr} $(h \circ g)(t)$ & = & $h(g(t))$ = $\dfrac{2 \left(g(t)\right)}{\left( g(t)\right) + 1}$ & \\ [12pt]
- & = & $\dfrac{2 \left(2-\sqrt{t+3} \right)}{\left(2-\sqrt{t+3}\right)+1}$ & \\[12pt] 
- & = & $\dfrac{4-2\sqrt{t+3}}{3-\sqrt{t+3}}$ & \\
-  \end{longtable}
- 
+\[
+\begin{array}{rclr} (h \circ g)(t)  =  h(g(t)) & = & \dfrac{2 \left(g(t)\right)}{\left( g(t)\right) + 1} & \\ [12pt]
+ & = & \dfrac{2 \left(2-\sqrt{t+3} \right)}{\left(2-\sqrt{t+3}\right)+1} & \\[12pt] 
+ & = & \dfrac{4-2\sqrt{t+3}}{3-\sqrt{t+3}} & \\
+  \end{array}
+ \]
  \end{itemize}
 
 To find the domain of $h \circ g$, we need the elements of the domain of $g$ so that $g(t)$ is in the domain of $h$.  As we've seen already, for $t$ to be in the domain of $g$, $t \geq -3$. For $s$ to be in the domain of $h$, $s \neq -1$, so we require $g(t) \neq -1$.  Hence, we solve $g(t) = 2-\sqrt{t+3} = -1$ with the intent of excluding the solutions. Isolating the radical expression gives $\sqrt{t+3} = 3$ or $t = 6$.  Sure enough, we check $g(6)=-1$ so we exclude $t=6$ from the domain of $h \circ g$.  Our final answer is $[-3, 6) \cup (6, \infty)$.
@@ -237,20 +246,23 @@ To find the domain of $h \circ g$, we need the elements of the domain of $g$ so 
 \begin{itemize}
 
 \item  \textit{inside out}: We substitute the expression $h(s)$ for $s$ in the expression $h(s)$ into $h$ to get
-\begin{longtable}{rclr} $(h \circ h)(s)$ & $=$ & $h(h(s)) =h\left(\dfrac{2s}{s+1}\right)$ & \\ [15pt]
-&=& $\dfrac{2\left(\dfrac{2s}{s+1}\right)}{\left(\dfrac{2s}{s+1}\right)+1}$ & \\ [25pt]
- & = & $\dfrac{\dfrac{4s}{s+1}}{\dfrac{2s}{s+1}+1} \cdot \dfrac{(s+1)}{(s+1)}$ & \\ [25pt]
-& = & $\dfrac{\dfrac{4s}{s+1} \cdot (s+1)}{\left(\dfrac{2s}{s+1}\right)\cdot(s+1)+1\cdot(s+1)}$ & \\ [25pt]
-& = & $\dfrac{\dfrac{4s}{\cancelto{1}{(s+1})} \cdot \cancel{(s+1)}}{\dfrac{2s}{\cancelto{1}{(s+1)}}\cdot\cancel{(s+1)}+s+1}$ & \\ [25pt]
-& = & $\dfrac{4s}{3s+1}$ & \\ 
- \end{longtable}
+\[
+\begin{array}{rclr} (h \circ h)(s)  = h(h(s)) & = &h\left(\dfrac{2s}{s+1}\right) & \\ [15pt]
+&=& \dfrac{2\left(\dfrac{2s}{s+1}\right)}{\left(\dfrac{2s}{s+1}\right)+1} & \\ [25pt]
+& = & \dfrac{\dfrac{4s}{s+1}}{\dfrac{2s}{s+1}+1} \cdot \dfrac{(s+1)}{(s+1)} & \\ [25pt]
+& = & \dfrac{\dfrac{4s}{s+1} \cdot (s+1)}{\left(\dfrac{2s}{s+1}\right)\cdot(s+1)+1\cdot(s+1)} & \\ [25pt]
+& = & \dfrac{\dfrac{4s}{\cancelto{1}{(s+1})} \cdot \cancel{(s+1)}}{\dfrac{2s}{\cancelto{1}{(s+1)}}\cdot\cancel{(s+1)}+s+1} & \\ [25pt]
+& = & \dfrac{4s}{3s+1} & \\ 
+ \end{array}
+\]
 
 \item  \textit{outside in}: This approach yields
-\begin{longtable}{rclr} $(h \circ h)(s)$ & = & $h(h(s)) = \dfrac{2 (h(s))}{h(s) + 1}$ & \\ [.25in]
-& = & $\dfrac{2\left(\dfrac{2s}{s+1}\right)}{\left(\dfrac{2s}{s+1}\right)+1}$ & \\[.35in] 
-& = & $\dfrac{4s}{3s+1}$ &  same algebra as before\\
- \end{longtable}
-
+\[
+\begin{array}{rclr} (h \circ h)(s)  =  h(h(s)) & = & \dfrac{2 (h(s))}{h(s) + 1} & \\ [.25in]
+& = & \dfrac{2\left(\dfrac{2s}{s+1}\right)}{\left(\dfrac{2s}{s+1}\right)+1} & \\[.35in] 
+& = & \dfrac{4s}{3s+1} &  \text{same algebra as before}\\
+ \end{array}
+\]
 \end{itemize}
 
 To find the domain of $h \circ h$,  we need to find the elements in the domain of $h$ so that the outputs, $h(s)$ are also in the domain of $h$.  The only domain restriction for $h$ comes from the denominator: $s \neq -1$, so in addition to this, we also need $h(s) \neq -1$.  To this end, we solve $h(s) = -1$ and exclude the answers.  Solving   $\frac{2s}{s+1} = -1$ gives $s = -\frac{1}{3}$.  The domain of $h \circ h$ is $(-\infty, -1) \cup \left(-1, -\frac{1}{3}\right) \cup \left(-\frac{1}{3}, \infty\right)$. 
@@ -259,18 +271,20 @@ To find the domain of $h \circ h$,  we need to find the elements in the domain o
 
 \begin{itemize}
 
-\item  \textit{inside out}: We substitute the expression $(g \circ f)(x)$ for $s$ in the expression $h(s)$ first to get
-\begin{longtable}{rclr} $(h \circ (g \circ f))(x)$ & = & $h((g \circ f)(x))=h\left(2 - \sqrt{x^2-4x+3}\right)$  & \\ [5pt]
- & = & $\dfrac{2 \left(2 - \sqrt{x^2-4x+3}\right)}{\left(2 - \sqrt{x^2-4x+3}\right)+1}$ & \\ [20pt]
- & = & $\dfrac{4 - 2\sqrt{x^2-4x+3}}{3 - \sqrt{x^2-4x+3}}$ & \\
- \end{longtable}
+\item  \textit{inside out}: We substitute the expression $(g \circ f)(x)$ for $s$ in the expression $h(s)$ first to get\\
+\[\begin{array}{rclr} (h \circ (g \circ f))(x)  =  h((g \circ f)(x))&=&h\left(2 - \sqrt{x^2-4x+3}\right)  & \\ [5pt]
+ & = & \dfrac{2 \left(2 - \sqrt{x^2-4x+3}\right)}{\left(2 - \sqrt{x^2-4x+3}\right)+1} & \\ [20pt]
+ & = & \dfrac{4 - 2\sqrt{x^2-4x+3}}{3 - \sqrt{x^2-4x+3}} & \\
+ \end{array}
+\]
 
-\item  \textit{outside in}:  We use the formula for $h(s)$ first to get
-\begin{longtable}{rclr} $(h \circ (g \circ f))(x)$ & = & $h((g \circ f)(x))=\dfrac{2 \left( (g \circ f)(x)\right)}{  \left( (g \circ f)(x)\right) + 1}$  & \\ [15pt]
-& = & $\dfrac{2 \left(2 - \sqrt{x^2-4x+3}\right)}{\left(2 - \sqrt{x^2-4x+3}\right)+1}$ & \\ [20pt]
- & = & $\dfrac{4 - 2\sqrt{x^2-4x+3}}{3 - \sqrt{x^2-4x+3}}$ & \\
- \end{longtable}
- 
+\item  \textit{outside in}:  We use the formula for $h(s)$ first to get\\
+\[
+\begin{array}{rclr} (h \circ (g \circ f))(x)  =  h((g \circ f)(x))&=&\dfrac{2 \left( (g \circ f)(x)\right)}{  \left( (g \circ f)(x)\right) + 1}  & \\[15pt]
+& = & \dfrac{2 \left(2 - \sqrt{x^2-4x+3}\right)}{\left(2 - \sqrt{x^2-4x+3}\right)+1} & \\[20pt]
+ & = & \dfrac{4 - 2\sqrt{x^2-4x+3}}{3 - \sqrt{x^2-4x+3}} &\\
+ \end{array}
+ \]
  \end{itemize}
  
 To find the domain of $h \circ (g \circ f)$, we need the domain elements of $g \circ f$, $(-\infty, 1] \cup [3,\infty)$, so that $(g \circ f)(x)$ is in the domain of $h$.  As we've seen several times already, the only domain restriction for $h$ is $s \neq -1$, so we set  $(g \circ f)(x) = 2 - \sqrt{x^2-4x+3} = -1$ and exclude the solutions.     We get $\sqrt{x^2-4x+3} = 3$, and, after squaring both sides, we have $x^2-4x+3 = 9$.  We solve $x^2-4x-6 = 0$ using the quadratic formula and obtain $x = 2 \pm \sqrt{10}$.  The reader is encouraged to check that both of these numbers satisfy the original equation, $2 - \sqrt{x^2-4x+3} = -1$ and also belong to the domain of $g \circ f$, $(-\infty, 1] \cup [3,\infty)$, and so must be excluded from our final answer.\footnote{We can approximate $\sqrt{10} \approx 3$ so $2-\sqrt{10} \approx -1$ and $2+\sqrt{10} \approx 5$.}   Our final domain for $h \circ (f \circ g)$ is $(-\infty, 2 -\sqrt{10}) \cup (2 - \sqrt{10}, 1] \cup \left[3, 2 + \sqrt{10}\right) \cup \left(2+\sqrt{10}, \infty\right)$.
@@ -278,18 +292,17 @@ To find the domain of $h \circ (g \circ f)$, we need the domain elements of $g \
 \item  The expression $((h \circ g) \circ f)(x)$ indicates that we first find the composite $h \circ g$ and then compose that with $f$.  From number \ref{hogex}, we have \[(h \circ g)(t) = \frac{4-2\sqrt{t+3}}{3-\sqrt{t+3}}\]  with domain $[-3, 6) \cup (6, \infty)$.
 \begin{itemize}
 
-\item  \textit{inside out}: We substitute the expression $f(x)$ for $t$ in the expression $(h \circ g)(t)$ to get 
-
+\item  \textit{inside out}: We substitute the expression $f(x)$ for $t$ in the expression $(h \circ g)(t)$ to get\\
 \[ \begin{array}{rclr}
-((h \circ g) \circ f)(x) & = & (h \circ g)(f(x)) = (h \circ g)\left(x^2-4x\right) & \\ [2pt]
+((h \circ g) \circ f)(x)  =  (h \circ g)(f(x)) & = &(h \circ g)\left(x^2-4x\right) & \\[15pt]
                          & = & \dfrac{4-2\sqrt{\left(x^2-4x\right)+3}}{3-\sqrt{\left(x^2-4x\right)+3}} & \\ [20pt]
                          & = & \dfrac{4 - 2\sqrt{x^2-4x+3}}{3 - \sqrt{x^2-4x+3}} & \\ \end{array}\]
 
-\item  \textit{outside in}:  We use the formula for $(h \circ g)(t)$ first to get
-\begin{longtable}{rclr} $((h \circ g) \circ f)(x)$ & = & $(h \circ g)(f(x))=\dfrac{4-2\sqrt{(f(x))+3}}{3-\sqrt{f(x))+3}}$  & \\ [20pt]
-  & = & $\dfrac{4 - 2\sqrt{\left(x^2-4x\right)+3}}{3 - \sqrt{\left(x^2-4x\right)+3}}$ & \\[20pt]
- & = & $\dfrac{4 - 2\sqrt{x^2-4x+3}}{3 - \sqrt{x^2-4x+3}}$ & \\
- \end{longtable}
+\item  \textit{outside in}:  We use the formula for $(h \circ g)(t)$ first to get\\
+\[\begin{array}{rclr} ((h \circ g) \circ f)(x)  =  (h \circ g)(f(x))&=&\dfrac{4-2\sqrt{(f(x))+3}}{3-\sqrt{f(x))+3}}  & \\[20pt]
+  & = & \dfrac{4 - 2\sqrt{\left(x^2-4x\right)+3}}{3 - \sqrt{\left(x^2-4x\right)+3}} & \\[20pt]
+ & = & \dfrac{4 - 2\sqrt{x^2-4x+3}}{3 - \sqrt{x^2-4x+3}}
+ \end{array}\]
  
  \end{itemize}
 
@@ -306,7 +319,8 @@ As previously mentioned, it should be clear from  Example \ref{functioncompex1} 
 \medskip
 
 \colorbox{ResultColor}{\bbm
-\begin{thm}\label{functioncompprops}  \textbf{Properties of Function Composition:} Suppose $f$, $g$, and $h$ are functions. \index{function ! composite ! properties of} \index{composite function ! properties of}
+\begin{thm}[Properties of Function Composition]\label{functioncompprops}  
+Suppose $f$, $g$, and $h$ are functions. \index{function ! composite ! properties of} \index{composite function ! properties of}
 
 \begin{itemize}
 

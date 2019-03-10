@@ -1,8 +1,8 @@
 %!PS
 %%BoundingBox: -1 -1 61 100 
 %%HiResBoundingBox: -0.24907 -0.24907 60.02477 99.87523 
-%%Creator: MetaPost 2.000
-%%CreationDate: 2017.06.03:1613
+%%Creator: MetaPost 2.00
+%%CreationDate: 2019.03.05:1059
 %%Pages: 1
 %%BeginProlog
 %%EndProlog
@@ -26,8 +26,8 @@ newpath 39.85046 71.23271 moveto
 41.18738 68.96188 41.34486 69.34195 41.34486 69.73831 curveto
 41.34486 70.13467 41.18738 70.51474 40.90714 70.79498 curveto
 40.62689 71.07523 40.24683 71.23271 39.85046 71.23271 curveto closepath fill
- 0 0.49814 dtransform truncate idtransform setlinewidth pop [] 0 setdash 1 setlinecap 1 setlinejoin
- 10 setmiterlimit
+ 0 0.49814 dtransform truncate idtransform setlinewidth pop [] 0 setdash
+ 1 setlinecap 1 setlinejoin 10 setmiterlimit
 newpath 19.92523 9.96262 moveto
 49.81308 99.62616 lineto stroke
 newpath 47.45024 97.2633 moveto

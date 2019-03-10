@@ -1,8 +1,8 @@
 %!PS
 %%BoundingBox: -1 -1 120 150 
 %%HiResBoundingBox: -0.24907 -0.24907 119.80046 149.68831 
-%%Creator: MetaPost 1.9991
-%%CreationDate: 2017.08.04:1349
+%%Creator: MetaPost 2.00
+%%CreationDate: 2019.03.05:1104
 %%Pages: 1
 %%BeginProlog
 %%EndProlog
@@ -22,10 +22,10 @@ newpath 57.28503 144.45793 moveto
 58.85295 145.63387 59.7757 147.47935 59.7757 149.43924 curveto
 59.7757 147.47935 60.69844 145.63387 62.26636 144.45793 curveto stroke
  1 1 1 setrgbcolor
-newpath 27.19235 47.1752 moveto
-62.47119 47.1752 lineto
-62.47119 57.43227 lineto
-27.19235 57.43227 lineto
+newpath 26.4401 47.18614 moveto
+63.22345 47.18614 lineto
+63.22345 57.42133 lineto
+26.4401 57.42133 lineto
  closepath fill
  0 0 0 setrgbcolor
 newpath 61.76822 14.94392 moveto

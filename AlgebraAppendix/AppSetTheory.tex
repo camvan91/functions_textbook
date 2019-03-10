@@ -15,7 +15,7 @@ We begin this section with the definition of a concept that is central to all of
 
 \colorbox{ResultColor}{\bbm
 
-\begin{defn} \label{setdef}
+\begin{defn}[Set] \label{setdef}
 
 A \textbf{set}\index{set ! definition of} is a well-defined collection of objects which are called the elements of the set.  Here, `well-defined' means that it is possible to determine if something belongs to the collection or not, without prejudice. 
 
@@ -36,6 +36,7 @@ In general, there are three ways to describe sets and those methods are listed b
 \phantomsection \label{waystodescribesets}
 
 \colorbox{ResultColor}{\bbm
+\begin{boxinfo}
 
 \centerline{\textbf{Ways to Describe Sets}}
 
@@ -48,7 +49,7 @@ In general, there are three ways to describe sets and those methods are listed b
 \item \textbf{The Set-Builder Method:} A combination of the verbal and roster methods using a ``dummy variable'' such as $x$ and conditions on that variable.\index{set ! set-builder notation}\index{set-builder notation}
 
 \end{enumerate}
-
+\end{boxinfo}
 \ebm}
 
 \medskip
@@ -85,7 +86,7 @@ Now let's consider the set $C =  \{ x \, | \, \mbox{$x$ is a consonant in the wo
 
 \colorbox{ResultColor}{\bbm
 
-\begin{defn} \label{subsetdef}
+\begin{defn}[Subset] \label{subsetdef}
 
 Given sets $A$ and $B$, we say that the set $A$ is a \textbf{subset}\index{subset ! definition of} of the set $B$ and write `$A \subseteq B$' if every element in $A$ is also an element of $B$.  
 
@@ -127,9 +128,9 @@ Returning to the sets $C$ and $V$  above, $C \cup V = \{ s, m, l, k, a, e, i, o,
 
 \colorbox{ResultColor}{\bbm
 
-\begin{defn} \label{emptysetdefn}
+\begin{defn}[Empty Set] \label{emptysetdefn}
 
-The \textbf{Empty Set} is the set which contains no elements and is denoted $\emptyset$.\index{set ! empty}\index{empty set}  That is, \[\emptyset=\{ \}=\{x\,|\,\mbox{$x \neq x$}\}.\]  
+The \textbf{empty set} is the set which contains no elements and is denoted $\emptyset$.\index{set ! empty}\index{empty set}  That is, \[\emptyset=\{ \}=\{x\,|\,\mbox{$x \neq x$}\}.\]  
 
 \end{defn}
 
@@ -272,7 +273,7 @@ The playground for most of this text is the set of \textbf{Real Numbers}.  Much 
 
 \colorbox{ResultColor}{\bbm
 
-\begin{defn} \label{realnumberdefn}
+\begin{defn}[Real Number] \label{realnumberdefn}
 
 A \textbf{real number}\index{real number ! set of}\index{real number ! definition of} is any number which possesses a decimal representation.  The set of real numbers is denoted by the character $\R$.  
 
@@ -290,8 +291,9 @@ Certain subsets of the real numbers are worthy of note and are listed below.  In
 \label{setsofnumbersboxonthispage}
 
 \colorbox{ResultColor}{\bbm
-
-\centerline{\textbf{Special Subsets of Real Numbers}}\index{set ! sets of real numbers}
+\begin{defn}[Special Subsets of Real Numbers]
+\index{set ! sets of real numbers}
+%\centerline{\textbf{Special Subsets of Real Numbers}}\index{set ! sets of real numbers}
 
 \begin{enumerate}
 
@@ -306,7 +308,7 @@ Certain subsets of the real numbers are worthy of note and are listed below.  In
 \item The \textbf{Irrational Numbers}:\index{irrational number ! set of}\index{irrational number ! definition of} $\mathbb P = \{x\,|\,\mbox{$x \in \R$ but $x \notin \Q$}\}$.\footnote{Examples here include number $\pi$ \co{(See Section \ref{AppAngles})}, $\sqrt{2}$ and $0.101001000100001\ldots$.}  That is, an \underline{ir}rational number is a real number which isn't rational.  Said differently, \[\mathbb P = \{x\,|\,\mbox{$x$ possesses a decimal representation which neither repeats nor terminates}\}\]
 
 \end{enumerate}
-
+\end{defn}
 \ebm}
 
 \medskip
@@ -315,7 +317,6 @@ Note that every natural number is a whole number which, in turn, is an integer. 
 
 \smallskip
 
-It is time to put all of this together in an example.
 
 \begin{ex} \label{numbersetex}   $~$
 
@@ -398,11 +399,11 @@ While this notion seems innocuous, it is worth pointing out that this convention
 \label{densityofqandp}
 
 \colorbox{ResultColor}{\bbm
-
-\centerline{\textbf{Density Property of $\Q$ and $\mathbb P$ in $\R$}}
+\begin{thm}[Density Property of $\Q$ and $\mathbb P$ in $\R$]
+%\centerline{\textbf{Density Property of $\Q$ and $\mathbb P$ in $\R$}}
 
 Between any two distinct real numbers, there is at least one rational number and one irrational number.  It then follows that between any two distinct real numbers there will be \underline{infinitely many} rational and \underline{infinitely many} irrational numbers.
-
+\end{thm}
 \ebm}
 
 \medskip
@@ -419,11 +420,11 @@ The second property $\R$ possesses that lets us view it as a line is that the se
 \label{trichotomy}
 
 \colorbox{ResultColor}{\bbm
-
-\centerline{\textbf{Law of Trichotomy}}
+\begin{thm}[Law of Trichotomy]
+%\centerline{\textbf{Law of Trichotomy}}
 
 If $a$ and $b$ are real numbers then exactly one of the following statements is true: \vspace{-.15in} \[ \begin{array}{lclcl} a < b & \hspace*{1.25in} & a > b & \hspace*{1.25in} & a = b \end{array} \]
-
+\end{thm}
 \ebm}
 
 \medskip
@@ -514,7 +515,7 @@ As you can glean from the table, for intervals with finite endpoints we start by
 \colorbox{ResultColor}{\bbm
 
 %\smallskip
-
+\begin{boxinfo}
 \centerline{\textbf{Interval Notation}}
 
 \medskip
@@ -682,7 +683,7 @@ Set of Real Numbers & Interval Notation &  Region on the Real Number Line  \\
 
 \smallskip
 \vspace{-.1in}
-
+\end{boxinfo}
 \ebm}
 
 \medskip

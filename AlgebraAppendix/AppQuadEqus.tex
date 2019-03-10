@@ -12,7 +12,8 @@ In Section \ref{solveeqnsbyfactoring}, we reviewed how to solve basic non-linear
 
 \colorbox{ResultColor}{\bbm
 
-\begin{defn}\label{quadeqndefn}\index{equation ! quadratic} An equation is said to be \textbf{quadratic} in a variable $x$ if it can be written in the form $ax^2 + bx + c = 0$ where $a$, $b$ and $c$ are expressions which do not involve $x$ and $a \neq 0$.
+\begin{defn}[Quadratic]\label{quadeqndefn}\index{equation ! quadratic} 
+An equation is said to be \textbf{quadratic} in a variable $x$ if it can be written in the form $ax^2 + bx + c = 0$ where $a$, $b$ and $c$ are expressions which do not involve $x$ and $a \neq 0$.
 
 \end{defn}
 
@@ -28,14 +29,14 @@ Think of quadratic equations as equations that are one degree up from linear equ
 \label{extractingthesquareroot}
 
 \colorbox{ResultColor}{\bbm
-
-\centerline{\textbf{Solving Quadratic Equations by Extracting Square Roots}}
+\begin{thm}[Solving Quadratic Equations by Extracting Square Roots]
+%\centerline{\textbf{Solving Quadratic Equations by Extracting Square Roots}}
 \vspace{.05in}
 If $c$ is a real number with $c \geq 0$, the solutions to $x^2 = c$ are $x = \pm \sqrt{c}$.
 
 \vspace{.05in}
 \textbf{Note:}  If $c < 0$, $x^2 = c$ has no real number solutions.
-
+\end{thm}
 \ebm}
 
 \medskip
@@ -66,7 +67,7 @@ x & = & -\dfrac{3 \pm \sqrt{15}}{2}  & \text{Add fractions} \\
 \label{completesquareeqns}
 
 \colorbox{ResultColor}{\bbm
-
+\begin{boxinfo}
 \centerline{\textbf{Solving Quadratic Equations:  Completing the Square}}
 \vspace{0.05in}
 To solve a quadratic equation $ax^2 + bx + c = 0$ by Completing the Square:
@@ -82,7 +83,7 @@ To solve a quadratic equation $ax^2 + bx + c = 0$ by Completing the Square:
 \item  Subtract $\frac{b}{2a}$ from both sides.
 
 \end{enumerate}
-
+\end{boxinfo}
 \ebm}
 
 \medskip
@@ -150,7 +151,8 @@ Lo and behold, we have derived the legendary \textbf{Quadratic Formula}!\index{q
 
 \colorbox{ResultColor}{\bbm
 
-\begin{thm}\label{quadraticformula}  \textbf{Quadratic Formula:} The solution(s) to $ax^2 + bx + c = 0$ with $a \neq 0$ is/are: \[x  = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} \]
+\begin{thm}[Quadratic Formula]\label{quadraticformula}  
+The solution(s) to $ax^2 + bx + c = 0$ with $a \neq 0$ is/are: \[x  = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} \]
 
 \end{thm}
 
@@ -180,6 +182,8 @@ As this last example illustrates, while the  Quadratic Formula \textit{can} be u
 \label{solvequadraticeqns}
 
 \colorbox{ResultColor}{\bbm
+
+\begin{boxinfo}
 \centerline{\textbf{Strategies for Solving Quadratic Equations}}
 
 \begin{itemize}
@@ -192,7 +196,7 @@ As this last example illustrates, while the  Quadratic Formula \textit{can} be u
 
 \end{itemize}
 \end{itemize}
-
+\end{boxinfo}
 \ebm}
 
 \medskip
@@ -394,7 +398,7 @@ Our last example above, the `Quadratic in Disguise', hints that the Quadratic Fo
 \phantomsection
 \label{QuadinDisguise}
 \colorbox{ResultColor}{\bbm
-
+\begin{boxinfo}
 \centerline{\textbf{Identifying Quadratics in Disguise}}
 
 An equation is a `Quadratic in Disguise' if it can be written in the form:  $ax^{2m} + bx^{m} + c = 0$.  
@@ -410,7 +414,7 @@ In other words:
 \end{itemize}
 
 To transform a Quadratic in Disguise to a quadratic equation, let $u = x^m$ so $u^2 = (x^m)^2 = x^{2m}$. This transforms the equation into $au^2 + bu + c = 0$.
-
+\end{boxinfo}
 \ebm}
 
 \medskip
@@ -424,7 +428,8 @@ We close this section with a review of the \textbf{discriminant} of a quadratic 
 \medskip
 
 \colorbox{ResultColor}{\bbm
-\begin{defn} \textbf{The Discriminant:}\index{discriminant}\index{equation ! quadratic ! discriminant} Given a quadratic equation $ax^2 + bx + c = 0$, the quantity $b^2 - 4ac$ is called the \textbf{discriminant} of the equation.
+\begin{defn}[Discriminant]\index{discriminant}\index{equation ! quadratic ! discriminant} 
+Given a quadratic equation $ax^2 + bx + c = 0$, the quantity $b^2 - 4ac$ is called the \textbf{discriminant} of the equation.
 
 \end{defn}
 \ebm}
@@ -436,7 +441,8 @@ The discriminant is the radicand of the square root in the quadratic formula:  \
 \medskip
 
 \colorbox{ResultColor}{\bbm
-\begin{thm} \textbf{Discriminant Theorem:} \label{discriminanttheoremrealversion} Given a Quadratic Equation $ax^2 + bx + c = 0$, let $D = b^2 - 4ac$ be the discriminant.
+\begin{thm}[Discriminant Theorem]\label{discriminanttheoremrealversion} 
+Given a Quadratic Equation $ax^2 + bx + c = 0$, let $D = b^2 - 4ac$ be the discriminant.
 
 \begin{itemize}
 
